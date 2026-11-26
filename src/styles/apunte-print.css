@@ -1,0 +1,62 @@
+/* Apunte impreso: A4 horizontal, dos columnas, azul y rosa, sin depender de tinta negra (texto azul marino). */
+@page { size: A4 landscape; margin: 11mm 12mm 13mm; }
+html[data-tema='impreso'], html[data-tema='impreso'] body { background: #fff; }
+.pr {
+  --ap-fondo: #ffffff; --ap-tinta: #1b2a4e; --ap-tinta-2: #4f5f86; --ap-azul: #2c5fb0; --ap-rosa: #c2436e; --ap-lila: #6c4fb0;
+  --nx-tinta: #1b2a4e; --nx-tinta-2: #4f5f86; --nx-tinta-3: #7482a3; --nx-azul: #2c5fb0; --nx-azul-2: #234c8f; --nx-rosa: #c2436e; --nx-rosa-2: #9c2d55; --nx-oro: #8a5d00; --nx-capa: #f2f6fd; --nx-capa-2: #e6eefb; --nx-linea: #cfdaf0;
+  font: 10pt/1.38 'Atkinson Hyperlegible Next Variable', system-ui, sans-serif;
+  color: #1b2a4e;
+  max-width: 277mm;
+  margin: 0 auto;
+}
+.pr b, .pr strong { color: #13234a; }
+.pr-portada { border-bottom: 3px solid #c2436e; padding-bottom: 6mm; margin-bottom: 4mm; break-after: avoid; }
+.pr-kicker { font-size: 9pt; letter-spacing: 0.12em; text-transform: uppercase; color: #c2436e; font-weight: 700; }
+.pr-portada h1 { font: 800 30pt/1 'Big Shoulders Display Variable', 'Arial Narrow', sans-serif; color: #234c8f; margin: 2mm 0 3mm; }
+.pr-indice { columns: 3; margin: 0 0 2mm; padding-left: 5mm; color: #2c5fb0; }
+.pr-como { font-size: 9.5pt; color: #4f5f86; margin: 0; }
+
+/* Cada tema arranca en página nueva y fluye en dos columnas: el orden de lectura es columna izquierda → derecha. */
+.pr-tema { column-count: 2; column-gap: 9mm; column-rule: 1px solid #e4eaf6; break-before: page; }
+.pr-tema:first-of-type { break-before: auto; }
+.pr .ap-tema { padding: 0; border: 0; }
+.pr .ap-tema__head { column-span: all; display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #2c5fb0; margin-bottom: 3mm; padding-bottom: 1mm; }
+.pr .ap-tema__head h3 { font: 800 21pt/1 'Big Shoulders Display Variable', 'Arial Narrow', sans-serif; color: #234c8f; margin: 0; }
+.pr .ap-bol { font-size: 9pt; color: #c2436e; font-weight: 700; }
+.pr h4 { font-family: 'Atkinson Hyperlegible Next Variable', system-ui, sans-serif; font-weight: 800; font-size: 8.6pt; text-transform: uppercase; letter-spacing: 0.08em; color: #2c5fb0; margin: 0 0 1.2mm; }
+.pr .ap-porque { background: #f2f6fd; border: 1px dashed #9db8e6; border-radius: 3mm; padding: 2.5mm 3.5mm; margin-bottom: 3mm; break-inside: avoid; }
+.pr .ap-porque ol { margin: 0; padding-left: 5mm; }
+.pr .ap-def { border-left: 3px solid #c2436e; background: #fff2f6; padding: 2mm 3mm; border-radius: 0 2mm 2mm 0; font-size: 10.8pt; margin: 0 0 3mm; break-inside: avoid; }
+.pr .ap-paso { margin: 0 0 3mm; }
+.pr .ap-paso h4 { break-after: avoid; }
+.pr .ap-paso p { margin: 0; }
+.pr .ap-paso ul, .pr .ap-paso ol, .pr .ap-clave ul, .pr .ap-mani ol { margin: 0; padding-left: 5mm; }
+.pr .ap-cuadro { margin: 0 0 3mm; }
+.pr .ap-cuadro tr, .pr .ap-cuadro h4 { break-inside: avoid; break-after: avoid-column; }
+.pr .ap-cuadro tr { break-after: auto; }
+.pr .ap-scroll { overflow: visible; border: 0; }
+.pr .ap-cuadro table { width: 100%; min-width: 0; border-collapse: collapse; font-size: 9.3pt; }
+.pr .ap-cuadro th { background: #234c8f; color: #fff; text-align: left; padding: 1.2mm 2mm; font-size: 8pt; text-transform: uppercase; letter-spacing: 0.04em; }
+.pr .ap-cuadro td { border-bottom: 1px solid #d9e3f4; padding: 1.3mm 2mm; vertical-align: top; }
+.pr .ap-cuadro tr:nth-child(even) td { background: #f6f9fe; }
+.pr .ap-cuadro td:first-child { white-space: normal; color: #234c8f; }
+.pr .ap-clave { border: 1.5px solid #e8b9c9; background: #fff6f9; border-radius: 3mm; padding: 2mm 3mm; margin: 0 0 3mm; break-inside: avoid; }
+.pr .ap-clave h4 { color: #c2436e; }
+.pr .ap-ojo { border-left: 3px solid #c2436e; background: #fff2f6; padding: 2mm 3mm; margin: 0 0 3mm; break-inside: avoid; }
+.pr .ap-ejemplo { background: #f2f6fd; padding: 2mm 3mm; margin: 0 0 3mm; }
+.pr .ap-ilus { margin: 0 0 3mm; break-inside: avoid; }
+.pr .ap-ilus svg { width: 100%; height: auto; }
+.pr .ap-oral { background: #eaf1fd; border-radius: 3mm; padding: 2.5mm 3.5mm; margin: 0 0 3mm; break-inside: avoid; }
+.pr .ap-oral p { margin: 0; font-style: italic; }
+.pr .ap-rep p { margin: 0 0 1.2mm; }
+.pr .ap-rep { margin: 0 0 3mm; }
+.pr .ap-mani { background: #f6f9fe; border-radius: 2mm; padding: 2mm 3mm; margin-bottom: 2mm; break-inside: avoid; }
+.pr .ap-mani p { margin: 1mm 0; }
+.pr .ap-fuentes { font-size: 8pt; color: #7482a3; margin: 2mm 0 0; }
+.pr .ap-noolvidar { break-inside: auto; background: none; padding: 0; }
+.pr .ap-noolvidar h3 { column-span: all; font: 800 21pt/1 'Big Shoulders Display Variable', 'Arial Narrow', sans-serif; color: #c2436e; border-bottom: 2px solid #c2436e; margin: 0 0 3mm; padding-bottom: 1mm; }
+.pr .ap-noolvidar dl > div { break-inside: avoid; padding: 1.2mm 0; border-bottom: 1px dotted #d9e3f4; }
+.pr .ap-noolvidar dt { font-weight: 700; color: #234c8f; }
+.pr .ap-noolvidar dd { margin: 0; }
+@media screen { .pr { padding: 12mm; background: #fff; } }
+.pr-tema.pr-final { break-before: auto; margin-top: 7mm; padding-top: 4mm; border-top: 3px solid #c2436e; }

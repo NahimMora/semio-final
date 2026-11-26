@@ -1,5 +1,14 @@
 # Semio Final — registro del proyecto
 
+> **27/11 — Reestructuración** (manda sobre lo de abajo). Auditoría en [AUDITORIA.md](AUDITORIA.md). Respaldo: etiqueta git `v1-antes-reestructuracion`.
+> - 5 secciones: Inicio y cronograma · Temas · Bolillero · Apuntes · Oral. Oscuro por defecto.
+> - 93 temas agrupados en 23 **unidades** (`content/final/unidades.ts`). Cada unidad: **Para entenderlo** (video + diapositivas: `content/chapters/<id>/clase.ts`) y **Para el oral** (apunte conciso: `content/oral/<unidad>.ts`, registrado en `src/oral/apuntes.ts`).
+> - Mismo apunte → web, PDF (`/imprimir/apunte/<sistema>` + `node scripts/pdf-apunte.mjs <url> <sistema>`, agregar el sistema a `PDF_NUEVOS`) y ficha para la IA.
+> - Video: `npm run tts:clase -- <id>` → registrar en `video/src/Root.tsx` → render mudo → ffmpeg con `narracion.wav` (ver HANDOFF).
+> - Referencia de densidad: los cuatro PDF de la usuaria (11, 222, 333, 444: privados, en .gitignore).
+> - Hecho con el método nuevo: **Historia clínica** (apunte, PDF de 3 páginas, video 4:49, 7 diapositivas). Siguiente: signos y síntomas (dolor, fiebre, disnea, cianosis, edema).
+
+
 > Plataforma para el final oral de Semiología (Fundación Barceló, La Rioja) del **14/12/2026**.
 > Base técnica: el proyecto anterior «Aula Clínica» (`C:\Claude\semio`), copiado y extendido. Última actualización: 26/11/2026.
 

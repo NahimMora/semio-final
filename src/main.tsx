@@ -2,6 +2,8 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import '@fontsource-variable/fraunces';
 import '@fontsource-variable/inter';
+import '@fontsource-variable/atkinson-hyperlegible-next';
+import '@fontsource-variable/big-shoulders-display';
 import './styles/tokens.css';
 import './styles/tema-claro.css';
 import './styles/base.css';

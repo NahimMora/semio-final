@@ -8,6 +8,8 @@ import { Lienzo } from '../../src/escenas/Lienzo';
 import type { Escena } from '../../src/escenas/tipos';
 import { escenas as dig01 } from '../../content/chapters/dig-01/escenas';
 import tiempos01 from '../../content/chapters/dig-01/tiempos.json';
+import { clase as planHc01 } from '../../content/chapters/hc-01/clase';
+import tiemposHc01 from '../../content/chapters/hc-01/clase-tiempos.json';
 import { clase as planDig02 } from '../../content/chapters/dig-02/clase';
 import tiemposDig02 from '../../content/chapters/dig-02/clase-tiempos.json';
 import { clase as planDig01 } from '../../content/chapters/dig-01/clase';
@@ -229,6 +231,7 @@ interface CapClase {
 const PLAN_PARCIAL = { fisio: { id: 'fisio', secciones: [], diapos: [] }, teoria: MAZO_PARCIAL } as unknown as PlanClase;
 
 const CLASES: CapClase[] = [
+  { id: 'hc-01-clase', titulo: 'Historia clínica', plan: planHc01, tiempos: tiemposHc01 as TiemposClase },
   { id: 'parcial-diapos', titulo: 'Parcial del lunes: lo del repaso', plan: PLAN_PARCIAL, tiempos: tiemposParcial as TiemposClase },
   { id: 'neu-06-clase', titulo: 'Otros síndromes neurológicos', plan: planNeu06, tiempos: tiemposNeu06 as TiemposClase },
   { id: 'neu-05-clase', titulo: 'Motilidad y síndromes motores', plan: planNeu05, tiempos: tiemposNeu05 as TiemposClase },

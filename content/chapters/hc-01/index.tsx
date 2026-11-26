@@ -1,4 +1,5 @@
 import type { Chapter, SourceRef } from '@/types';
+import { clase } from './clase';
 
 /*
  * hc-01 — Historia clínica. Está en 19 de las 20 bolillas (todas menos la 14).
@@ -786,6 +787,7 @@ const chapter: Chapter = {
   },
 
   diagrams: {},
+  clase,
 };
 
 export default chapter;

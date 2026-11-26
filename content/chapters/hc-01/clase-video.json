@@ -1,0 +1,58 @@
+{
+  "src": "media/hc-01/clase.mp4",
+  "poster": "media/hc-01/clase.jpg",
+  "vtt": "media/hc-01/clase.vtt",
+  "duration": "4:49",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "La idea"
+    },
+    {
+      "t": 76,
+      "label": "Estructura"
+    },
+    {
+      "t": 116,
+      "label": "Anamnesis"
+    },
+    {
+      "t": 192,
+      "label": "Un caso"
+    },
+    {
+      "t": 244,
+      "label": "Elaboración"
+    }
+  ],
+  "script": [
+    {
+      "title": "Para qué existe la historia clínica",
+      "text": "Antes de memorizar partes, pensemos para qué sirve la historia clínica. Frente a un paciente, el médico hace siempre lo mismo: pregunta, y obtiene síntomas; examina, y encuentra signos. Después agrupa esos síntomas y signos en síndromes, y recién ahí plantea un diagnóstico, que los estudios complementarios confirman. La historia clínica es ese razonamiento escrito en orden. Por eso tiene las partes que tiene, y en ese orden: cada una prepara la siguiente."
+    },
+    {
+      "title": "Síntoma, signo, síndrome",
+      "text": "Tres palabras que vas a usar en todo el final. Síntoma es lo que el paciente refiere: es subjetivo, como el dolor o la falta de aire. Signo es lo que el médico encuentra al examinar: es objetivo, como la ictericia o un soplo. Y un síndrome es un conjunto de síntomas y signos que aparecen juntos porque comparten un mecanismo, aunque puedan tener distintas causas. La enfermedad, en cambio, tiene una causa concreta. Y un signo patognomónico es el que, por sí solo, asegura el diagnóstico, como el signo de Romaña en el chagas agudo."
+    },
+    {
+      "title": "Seis partes: tres recogen, tres piensan",
+      "text": "La estructura tiene seis partes, y se recuerdan mejor de a pares. Las dos primeras recogen datos: la anamnesis, que es lo que el paciente cuenta, y el examen físico, que es lo que vos encontrás. Las dos siguientes piensan: el resumen semiológico se queda solo con lo positivo, y las consideraciones diagnósticas agrupan esos datos en síndromes y llegan a un diagnóstico. Para el libro, esa es la parte más importante. Y las dos últimas siguen al paciente: la evolución diaria, mientras está internado, y la epicrisis, que cierra la historia al alta o al fallecimiento."
+    },
+    {
+      "title": "La anamnesis: próxima, remota y sistémica",
+      "text": "La anamnesis es la indagación por medio de preguntas. Se ordena en el tiempo. La próxima es lo de ahora: quién es el paciente, por qué consulta y cómo empezó y evolucionó su problema. La remota es lo de antes: sus antecedentes personales, fisiológicos, patológicos, de su medio y sus hábitos, y los de su familia. Y la sistémica es una red de seguridad: un repaso por aparatos para encontrar síntomas que el paciente no relacionó con su enfermedad y por eso no contó."
+    },
+    {
+      "title": "Motivo de consulta y enfermedad actual",
+      "text": "Las dos partes que más se confunden. El motivo de consulta es la portada de la historia: en pocas palabras, el síntoma principal y cuánto hace que empezó. Con eso ya sabés qué aparato está en juego. La enfermedad actual es la historia completa de ese problema, en orden cronológico: primero dejás que el paciente cuente libremente y después preguntás para completar. Si tiene antecedentes relacionados, los ponés al principio. Un error típico es escribir un diagnóstico en el motivo de consulta, como neumonía, o derivado por un médico. Eso no orienta: lo que orienta es el síntoma con su tiempo."
+    },
+    {
+      "title": "Un paciente recorre la historia clínica",
+      "text": "Veámoslo con un paciente. Un hombre de sesenta y dos años consulta por dolor retroesternal de dos horas de evolución. Ese es el motivo de consulta: síntoma y tiempo. En la enfermedad actual caracterizás el dolor: es opresivo, se irradia al brazo izquierdo y viene con sudoración. En los antecedentes aparecen la hipertensión, la diabetes, cuarenta paquetes año de tabaco y un padre que tuvo un infarto a los cincuenta. El examen físico muestra un paciente pálido, sudoroso, con presión de ciento sesenta y noventa y cinco y taquicardia. Con esos datos positivos, en las consideraciones diagnósticas planteás un síndrome: dolor torácico de probable origen isquémico, con sus diferenciales. Recién ahí pedís estudios."
+    },
+    {
+      "title": "Donde el médico piensa",
+      "text": "Después de recoger los datos, el médico piensa. Primero el resumen semiológico, que deja solo lo positivo: es una historia abreviada que se lee en un minuto. Con eso armás las consideraciones diagnósticas: agrupás en síndromes, discutís los diagnósticos diferenciales y llegás a un diagnóstico presuntivo, que puede ser anatómico, funcional o etiológico, y que orienta qué estudios pedir. El libro lo resume con una frase: los malos diagnósticos suelen ser buenos razonamientos sobre hechos mal observados. Si la anamnesis o el examen fallan, todo lo que sigue falla."
+    }
+  ]
+}

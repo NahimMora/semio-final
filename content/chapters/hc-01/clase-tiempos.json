@@ -1,0 +1,157 @@
+{
+ "fps": 24,
+ "total": 6939,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "e-para-que",
+   "inicio": 96,
+   "frames": 805,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 335
+    },
+    {
+     "inicio": 431,
+     "frames": 222
+    },
+    {
+     "inicio": 653,
+     "frames": 248
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "e-sintoma-signo",
+   "inicio": 901,
+   "frames": 930,
+   "beats": [
+    {
+     "inicio": 901,
+     "frames": 241
+    },
+    {
+     "inicio": 1142,
+     "frames": 374
+    },
+    {
+     "inicio": 1516,
+     "frames": 315
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "e-estructura",
+   "inicio": 1831,
+   "frames": 962,
+   "beats": [
+    {
+     "inicio": 1831,
+     "frames": 344
+    },
+    {
+     "inicio": 2175,
+     "frames": 361
+    },
+    {
+     "inicio": 2536,
+     "frames": 257
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "e-anamnesis",
+   "inicio": 2793,
+   "frames": 814,
+   "beats": [
+    {
+     "inicio": 2793,
+     "frames": 335
+    },
+    {
+     "inicio": 3128,
+     "frames": 244
+    },
+    {
+     "inicio": 3372,
+     "frames": 235
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "e-mc-ea",
+   "inicio": 3607,
+   "frames": 1012,
+   "beats": [
+    {
+     "inicio": 3607,
+     "frames": 350
+    },
+    {
+     "inicio": 3957,
+     "frames": 360
+    },
+    {
+     "inicio": 4317,
+     "frames": 302
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "e-caso",
+   "inicio": 4619,
+   "frames": 1243,
+   "beats": [
+    {
+     "inicio": 4619,
+     "frames": 309
+    },
+    {
+     "inicio": 4928,
+     "frames": 196
+    },
+    {
+     "inicio": 5124,
+     "frames": 227
+    },
+    {
+     "inicio": 5351,
+     "frames": 199
+    },
+    {
+     "inicio": 5550,
+     "frames": 312
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "e-pensar",
+   "inicio": 5862,
+   "frames": 957,
+   "beats": [
+    {
+     "inicio": 5862,
+     "frames": 287
+    },
+    {
+     "inicio": 6149,
+     "frames": 363
+    },
+    {
+     "inicio": 6512,
+     "frames": 307
+    }
+   ]
+  }
+ ]
+}

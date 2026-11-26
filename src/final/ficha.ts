@@ -1,30 +1,25 @@
 import { TEMA_POR_ID } from '@content/final/temas';
 import { MANEUVERS } from '@content/maneuvers';
-import { findChapter } from '@content/curriculum';
 import { CRONOGRAMA, type Dia } from '@content/final/cronograma';
-import { loadChapter } from '@/lib/useChapter';
+import { UNIDAD_DE_TEMA } from '@content/final/unidades';
 import { plain } from '@/lib/text';
+import { cargarApunte, temaTexto } from '@/oral/apuntes';
 import { preguntasDeTema, textoRespuesta } from './preguntas';
 import { textoBolillasDe } from './ui';
-import { getFinal } from './store';
 
-export const INSTRUCCIONES =
-  'Actuá como profesor de Semiología de la Fundación Barceló. Tomame un examen oral sobre los temas que aparecen en esta ficha. Haceme preguntas abiertas de una en una, esperá mi respuesta y corregime brevemente. No me muestres la respuesta antes de que intente responder. Priorizá la comprensión fisiopatológica, las maniobras, los criterios y los conceptos de examen. Hacé repreguntas cuando corresponda. No interrumpas constantemente por detalles menores. Al finalizar, indicame qué contenidos domino y cuáles necesito reforzar.';
+export const INSTRUCCIONES = `Actuá como profesor examinador de Semiología de la Fundación Barceló (sede La Rioja) en un examen final ORAL. Usá esta ficha como referencia de lo que tengo que saber.
+1. Haceme preguntas abiertas de UNA en una y esperá mi respuesta. No me muestres la respuesta antes de que intente.
+2. Después de cada respuesta, corregí brevemente los errores conceptuales y lo que falte de importante (sin interrumpir por detalles menores).
+3. Hacé repreguntas como haría un profesor: por qué ocurre, cómo se explora, qué maniobra usarías, con qué lo diferenciás.
+4. Priorizá definiciones, orden de la respuesta, fisiopatología básica, maniobras, tríadas, criterios y valores.
+5. Al final, decime qué temas domino, cuáles tengo que reforzar y si estoy preparada para rendir estos temas.`;
 
 const corta = (iso: string) => `${iso.slice(8, 10)}/${iso.slice(5, 7)}`;
 
-/** Fecha en que se repasa lo estudiado un día (según los bloques de repaso del cronograma). */
 export function fechasDeRepaso(d: Dia): string[] {
   const out: string[] = [];
   for (const x of CRONOGRAMA) for (const b of x.bloques) if (b.repasa?.includes(d.corto)) out.push(x.fecha);
   return out;
-}
-
-function diaSiguiente(iso: string): string {
-  const [y, m, d] = iso.split('-').map(Number);
-  const f = new Date(y, m - 1, d + 1);
-  const z = (n: number) => String(n).padStart(2, '0');
-  return `${f.getFullYear()}-${z(f.getMonth() + 1)}-${z(f.getDate())}`;
 }
 
 export interface MetaFicha {
@@ -34,101 +29,49 @@ export interface MetaFicha {
   nota?: string;
 }
 
-/** Arma la ficha completa en Markdown: autosuficiente (ChatGPT no ve la página). */
+/** Ficha autosuficiente en Markdown (la IA no ve la página). */
 export async function armarFicha(temaIds: string[], meta: MetaFicha): Promise<string> {
-  const s = getFinal();
   const temas = temaIds.map((id) => TEMA_POR_ID[id]).filter(Boolean);
-  const L: string[] = [];
-  L.push(`# Ficha de repaso — ${meta.titulo}`);
-  L.push('');
-  L.push('## Instrucciones para ChatGPT');
-  L.push(INSTRUCCIONES);
-  L.push('');
-  L.push('Contexto: examen final ORAL de Semiología (Fundación Barceló, sede La Rioja), por bolillero de 20 bolillas; puede evaluar cualquier docente. Usá como referencia Argente-Álvarez (Semiología Médica) y Baré-Califano (Semiotecnia) para las maniobras.');
-  L.push('');
-  if (meta.fechaEstudio) L.push(`- **Fecha de estudio original:** ${corta(meta.fechaEstudio)}`);
-  if (meta.fechaRepaso?.length) L.push(`- **Repaso programado:** ${meta.fechaRepaso.map(corta).join(' y ')}`);
+  const L: string[] = [`# Ficha para examen oral — ${meta.titulo}`, '', '## Instrucciones para la IA', INSTRUCCIONES, ''];
+  if (meta.fechaEstudio) L.push(`- Estudiado el ${corta(meta.fechaEstudio)}${meta.fechaRepaso?.length ? ` · repaso programado: ${meta.fechaRepaso.map(corta).join(' y ')}` : ''}`);
   if (meta.nota) L.push(`- ${meta.nota}`);
-  L.push('');
-  L.push('## Temas');
-  const capitulos = new Set<string>();
+  L.push('', '## Temas y respuestas esperadas');
+
+  const noOlvidar: string[] = [];
+  const unidadesVistas = new Set<string>();
   for (const t of temas) {
-    L.push(`### ${t.titulo}`);
-    L.push(`- ${textoBolillasDe(t.id)}`);
-    L.push(`- Subtemas: ${t.resumen}`);
-    for (const e of t.frecuente ?? []) L.push(`- Pregunta frecuente (${e.quien === 'ortega' ? 'Ortega' : 'Merlín'}): ${e.nota} [${e.fuente}]`);
-    t.capitulos.forEach((c) => capitulos.add(c.id));
-    L.push('');
-  }
-
-  // Conceptos imprescindibles (cierre de cada capítulo)
-  const esenciales: string[] = [];
-  const fuentes: string[] = [];
-  for (const id of capitulos) {
-    const c = await loadChapter(id);
-    if (!c) continue;
-    for (const e of c.closing.essentials) esenciales.push(plain(e));
-    const meta = findChapter(id);
-    if (meta) fuentes.push(`${meta.title}: ${meta.sourcesLabel}`);
-  }
-  if (esenciales.length) {
-    L.push('## Conceptos imprescindibles');
-    for (const e of esenciales.slice(0, 40)) L.push(`- ${e}`);
-    L.push('');
-  }
-
-  // Maniobras
-  const manis = [...new Set(temas.flatMap((t) => t.maniobras ?? []))].map((id) => MANEUVERS.find((m) => m.id === id)).filter(Boolean);
-  if (manis.length) {
-    L.push('## Maniobras que tengo que saber hacer y explicar');
-    for (const m of manis) L.push(`- **${m!.name}**: ${plain(m!.explores)} Positiva/patológica: ${plain(m!.pathologic)}`);
-    L.push('');
-  }
-
-  // Preguntas documentadas con respuesta breve (para que ChatGPT corrija con el mismo criterio)
-  L.push('## Preguntas de examen (con respuesta de referencia — NO me las muestres antes de que responda)');
-  let n = 0;
-  for (const t of temas) {
-    const ps = (await preguntasDeTema(t)).filter((p) => !p.delCapitulo).slice(0, 8);
-    for (const p of ps) {
-      n++;
-      const origen = p.tipo === 'ortega' ? ' [Ortega la marca como pregunta de examen]' : p.tipo === 'preguntero' ? ' [preguntero de la cátedra]' : '';
-      const r = textoRespuesta(p).replace(/\n+/g, ' ').slice(0, 600);
-      L.push(`${n}. ${p.texto}${origen}`);
-      if (r) L.push(`   - Respuesta de referencia: ${r}`);
+    const u = UNIDAD_DE_TEMA[t.id];
+    const ap = u ? await cargarApunte(u) : null;
+    const at = ap?.temas.find((x) => x.tema === t.id);
+    if (at) {
+      L.push(temaTexto(at), `(${textoBolillasDe(t.id)})`, '');
+      if (ap && !unidadesVistas.has(u)) {
+        unidadesVistas.add(u);
+        for (const x of ap.noOlvidar) noOlvidar.push(`- ${plain(x.q)}: ${plain(x.a)}`);
+      }
+      continue;
     }
+    // Sin apunte nuevo todavía: subtemas + preguntas documentadas del material anterior.
+    L.push(`### ${t.titulo}`, `(${textoBolillasDe(t.id)})`, `Subtemas: ${t.resumen}`);
+    const ps = (await preguntasDeTema(t)).filter((p) => !p.delCapitulo).slice(0, 6);
+    for (const p of ps) {
+      const r = textoRespuesta(p).replace(/\n+/g, ' ').slice(0, 450);
+      L.push(`- Pregunta: ${p.texto}${r ? ` → Respuesta esperada: ${r}` : ''}`);
+    }
+    const ms = (t.maniobras ?? []).map((id) => MANEUVERS.find((m) => m.id === id)).filter(Boolean);
+    if (ms.length) L.push(`- Maniobras: ${ms.map((m) => `${m!.name} (positiva: ${plain(m!.pathologic)})`).join('; ')}`);
+    L.push('');
   }
-  if (!n) L.push('- (Todavía no hay preguntas cargadas para estos temas: preguntá libremente sobre los subtemas.)');
-  L.push('');
-
-  // Errores anteriores
-  const errores = s.errores.filter((e) => temaIds.includes(e.temaId) && !e.resuelto);
-  L.push('## Errores anteriores (insistí en estos)');
-  if (errores.length) for (const e of errores) L.push(`- ${e.pregunta} → correcto: ${e.respuesta}${e.concepto ? ` (reforzar: ${e.concepto})` : ''}`);
-  else L.push('- Sin errores registrados para estos temas.');
-  L.push('');
-
-  L.push('## Fuentes');
-  for (const f of fuentes) L.push(`- ${f}`);
-  L.push('');
-  L.push('---');
-  L.push(INSTRUCCIONES);
+  if (noOlvidar.length) L.push('## Lo que no me puedo olvidar', ...noOlvidar, '');
+  L.push('---', 'Empezá ahora con la primera pregunta.');
   return L.join('\n');
 }
 
 export async function fichaDelDia(fecha: string): Promise<{ texto: string; titulo: string } | null> {
   const d = CRONOGRAMA.find((x) => x.fecha === fecha);
   if (!d) return null;
-  const s = getFinal();
-  const planificados = d.bloques.flatMap((b) => b.temas);
-  const reales = s.estudiados[fecha]?.length ? s.estudiados[fecha] : planificados;
-  const repasos = fechasDeRepaso(d);
+  const temas = [...new Set(d.bloques.flatMap((b) => b.temas))];
   const titulo = `${d.corto} · ${d.titulo}`;
-  const texto = await armarFicha([...new Set(reales)], {
-    titulo,
-    fechaEstudio: d.fecha,
-    fechaRepaso: [diaSiguiente(d.fecha), ...repasos],
-    nota: s.estudiados[fecha]?.length ? 'Temas marcados como estudiados efectivamente ese día.' : 'Temas planificados para ese día (no marqué cuáles estudié realmente).',
-  });
+  const texto = await armarFicha(temas, { titulo, fechaEstudio: d.fecha, fechaRepaso: fechasDeRepaso(d) });
   return { texto, titulo };
 }
