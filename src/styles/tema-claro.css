@@ -1,0 +1,50 @@
+/* Paleta CLARA azul y rosada (predeterminada en la plataforma del final).
+   La oscura de la versión anterior sigue disponible con el botón de tema (html[data-tema='oscuro']).
+   Tinta azul marino en lugar de negro: imprime y se lee mejor sin depender de tinta negra. */
+html:not([data-tema='oscuro']) {
+  color-scheme: light;
+  --bg: #f5f8fe;
+  --bg-2: #edf2fc;
+  --surface: #ffffff;
+  --surface-2: #fafcff;
+  --line: #dfe6f4;
+  --line-2: #cbd6ec;
+  --ink: #1d2a47;
+  --ink-2: #47557a;
+  --ink-3: #7884a3;
+  --on-ink: #ffffff;
+
+  --rose-50: #fff2f6; --rose-100: #ffe3ec; --rose-200: #f8c3d4; --rose-400: #ec86a6; --rose-600: #c0436d; --rose-700: #9c2d55;
+  --sky-50: #eff5ff; --sky-100: #dde9ff; --sky-200: #b8d1fa; --sky-400: #6c9fe4; --sky-600: #2c65b5; --sky-700: #1f4c8c;
+  --lilac-50: #f6f3fd; --lilac-100: #ebe4fa; --lilac-200: #d6c9f2; --lilac-400: #a48ddb; --lilac-600: #6f55b0; --lilac-700: #553f91;
+  --mint-50: #eef9f4; --mint-100: #d9f1e6; --mint-200: #b2dfca; --mint-600: #2f8664; --mint-700: #236a4f;
+  --peach-50: #fff5ee; --peach-100: #ffe8d6; --peach-200: #f7cba8; --peach-600: #b46a33; --peach-700: #8f5226;
+  --gold-50: #fff8e5; --gold-200: #f1dba0; --gold-700: #865800;
+  --ok: #2b8562; --ok-bg: #e6f5ee; --bad: #c0405f; --bad-bg: #fdecf1;
+
+  --shadow-xs: 0 1px 2px rgba(31, 60, 120, 0.06);
+  --shadow-sm: 0 1px 3px rgba(31, 60, 120, 0.08), 0 1px 2px rgba(31, 60, 120, 0.05);
+  --shadow: 0 12px 30px -16px rgba(31, 60, 120, 0.28), 0 3px 10px -4px rgba(31, 60, 120, 0.1);
+  --shadow-lg: 0 26px 50px -22px rgba(31, 60, 120, 0.35);
+
+  --d-card: #ffffff; --d-off: #f3f6fc; --d-text: #1d2a47; --d-text-2: #47557a; --d-text-3: #7884a3; --d-line: #cfd8ea; --d-line-2: #aebbd6;
+  --d-tube: #cfd8ea; --d-tube-in: #f6f9ff; --d-skin: #fbf1ee; --d-strong: #1d2a47; --d-on-strong: #ffffff; --d-on-strong-2: #e3e9f6; --d-rose-soft: #fff2f6;
+  --d-xray: #1b2438; --d-barium: #eef2fa; --d-air: #56627f;
+  --d-rose-fill: #ffe3ec; --d-rose-stroke: #ec86a6; --d-rose-ink: #9c2d55;
+  --d-lilac-fill: #ebe4fa; --d-lilac-stroke: #a48ddb; --d-lilac-ink: #553f91;
+  --d-sky-fill: #dde9ff; --d-sky-stroke: #6c9fe4; --d-sky-ink: #1f4c8c;
+  --d-mint-fill: #d9f1e6; --d-mint-stroke: #5fb592; --d-mint-ink: #236a4f;
+  --d-peach-fill: #ffe8d6; --d-peach-stroke: #e9a46d; --d-peach-ink: #8f5226;
+  --d-ink-fill: #eef2fa; --d-ink-stroke: #7884a3; --d-ink-ink: #1d2a47;
+  --d-gray-fill: #f3f6fc; --d-gray-stroke: #cfd8ea; --d-gray-ink: #47557a; --d-red: #c0405f;
+  --v-bg: #ffffff; --v-card: #f7f9fe; --v-ink: #1d2a47; --v-ink2: #47557a; --v-ink3: #7884a3; --v-line: #cfd8ea;
+  --v-rose: #c0436d; --v-rose-f: #ffe3ec; --v-lilac: #6f55b0; --v-lilac-f: #ebe4fa; --v-sky: #2c65b5; --v-sky-f: #dde9ff;
+  --v-mint: #2f8664; --v-mint-f: #d9f1e6; --v-peach: #b46a33; --v-peach-f: #ffe8d6; --v-gold: #865800; --v-gold-f: #fff3cf;
+  --v-red: #c0334f; --v-red-f: #fde1e6; --v-skin: #fbf1ee; --v-stone: #c99a3e; --v-stone-2: #8a6a2c; --v-bile: #e3ecc8; --v-stool: #9a6b45; --v-stool-2: #5e3d22;
+  --v-liver: #f3dcd8; --v-spleen: #eadcf0; --v-pan: #f8e6d4; --v-gut: #f6eef0;
+  --v-kidney: #f3d9da; --v-urine: #f6edc6; --v-vessel: #e9b3bd;
+}
+html:not([data-tema='oscuro']) .tone-red { --accent-50: #fde1e6; --accent-100: #fbd0d8; --accent-200: #f2a7b6; --accent-400: #e0607a; --accent-600: #c0334f; --accent-700: #9c2440; }
+html:not([data-tema='oscuro']) .tone-gold { --accent-50: #fff8e5; --accent-100: #fff1cc; --accent-200: #f1dba0; --accent-400: #e0b64a; --accent-600: #9a6a00; --accent-700: #865800; }
+html:not([data-tema='oscuro']) .tone-mint { --accent-400: #5fb592; }
+html:not([data-tema='oscuro']) .tone-peach { --accent-400: #e9a46d; }

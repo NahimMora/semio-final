@@ -1,0 +1,19 @@
+{
+  "name": "Semio Final — Bolillero y oral",
+  "short_name": "Semio Final",
+  "description": "Plataforma para el final oral de Semiología: bolillero, cronograma, temas, maniobras, simulador oral y repasos con ChatGPT.",
+  "id": "/semio-final/",
+  "start_url": "/semio-final/",
+  "scope": "/semio-final/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f8fe",
+  "theme_color": "#2c65b5",
+  "lang": "es-AR",
+  "icons": [
+    { "src": "icons/icono-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icono-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icono-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

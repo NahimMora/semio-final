@@ -1,0 +1,60 @@
+/**
+ * Palabras clave para repartir las preguntas de un capítulo que cubre varios temas.
+ * Si un tema no tiene claves, recibe todas las preguntas de sus capítulos.
+ * Si las claves no encuentran nada, se ofrecen las del capítulo completo (marcadas como «del capítulo»).
+ */
+export const CLAVES: Record<string, RegExp> = {
+  disfagia: /disfagia|degluc|acalasia|odinofagia|esof[aá]g/i,
+  vomitos: /v[oó]mit|n[aá]usea|Mallory|hemat[eé]mesis|ionograma|arcada|regurgit/i,
+  hemoptisis: /hemoptisis/i,
+  constipacion: /constip|Roma|Bristol|pujo|tenesmo|estre[nñ]imiento/i,
+  'ef-abdomen': /abdomen|inspecci|ausculta|percusi|palpaci|orden|ombligo|soplo|cicatriz|Chvostek|Cullen/i,
+  'ef-higado': /h[ií]gado|hep[aá]t(?!ico)|hepatometr|Chauffard|Mathieu|Gilbert|cuchara/i,
+  'ef-bazo': /bazo|espl[eé]n|Traube|Schuster|Naegeli|Merlo|Castell/i,
+  'ef-intestino': /colon|ciego|sigm|intestin|v[ií]sceras huecas|Glenard|tacto rectal|hidroa[eé]reo|chapoteo/i,
+  'pared-abdominal': /punto|hernia|McBurney|Blumberg|Gueneau|pared|Murphy|apendic|esfuerzo/i,
+  ascitis: /ascitis|onda|t[eé]mpano|matidez desplazable|concavidad/i,
+  'liquido-ascitico': /paracentesis|neutr[oó]filo|l[ií]quido asc|GASA|gradiente|PBE|espont[aá]nea/i,
+  cirrosis: /cirrosis|Child|BATEA|estigma|encefalopat|O.Grady|insuficiencia hep/i,
+  htp: /portal|colateral|v[aá]rice|esplenomeg|ascendente|descendente|cabeza de medusa/i,
+  orina: /orina|hematuria|tres vasos|proteinuria|sediment|cilindro|color|poliuria/i,
+  edema: /edema/i,
+  'ef-renal': /Guyon|Montenegro|Israel|Glenard|pu[nñ]opercusi|ureteral|maniobra|examen/i,
+  ira: /aguda|RIFLE|AKIN|prerrenal|posrenal|sodio|necrosis tubular|ecograf/i,
+  erc: /cr[oó]nica|KDIGO|estadio|ur[eé]mic|AEIOU|di[aá]lisis|hipocalcemia|anemia|ecograf/i,
+  cefaleas: /cefal|migra|neuralgia|racimos|tensional/i,
+  'conciencia-glasgow': /conciencia|Glasgow|coma|orientaci|estupor|obnubil|confusi/i,
+  sincope: /s[ií]ncope|lipotimia/i,
+  'pc-I': /olfat|anosmia/i,
+  'pc-II': /[oó]ptic|visual|campo|hemianop|fondo de ojo|papila|agudeza/i,
+  'pc-oculomotores': /\bIII\b|\bIV\b|\bVI\b|oculomotor|pat[eé]tico|motor ocular|pupil|diplop|nistagmo|ptosis|estrabismo/i,
+  'pc-V': /trig[eé]mino|\bV par|corneano|masticaci|maseter/i,
+  'pc-VII': /facial|\bVII\b|s[eé]ptimo|Bell|gusto/i,
+  'pc-VIII': /\bVIII\b|audit|Weber|Rinne|vestib|hipoacusia|v[eé]rtigo|auditiva/i,
+  'pc-IX-X': /glosofar|vago|\bIX\b|velo|nauseoso|cortina|degluci/i,
+  'pc-XI': /espinal|\bXI\b|trapecio|esternocleido/i,
+  'pc-XII': /hipogloso|\bXII\b|lengua/i,
+  fuerza: /debilidad|paresia|plej|fuerza|Mingazzini|Barr[eé]/i,
+  tono: /tono|esp[aá]stic|rigidez|hipoton|hiperton/i,
+  'postura-marcha': /marcha|postura/i,
+  'reflejos-profundos': /reflejo|osteotend|clonus|hiperreflex/i,
+  'reflejos-superficiales': /Babinski|plantar|cut[aá]neo|abdominal|cremast/i,
+  'sens-superficial': /superficial|t[aá]ctil|t[eé]rmic|dolor|espinotal|termoalg/i,
+  'sens-profunda': /profunda|vibrat|palest|batiest|posici|cordonal|estereogn|grafest/i,
+  taxia: /ataxia|taxia|Romberg|cordonal|coordinaci|equilibrio|[ií]ndice|tal[oó]n/i,
+  'sx-piramidal': /piramidal|primera motoneurona|esp[aá]stic|hemipl|Babinski|alterna|topograf/i,
+  'segunda-motoneurona': /segunda motoneurona|fascicul|atrofia|primera y (la )?segunda/i,
+  parkinson: /Parkinson|extrapiramidal|rigidez|bradicines|temblor/i,
+  'sx-cerebeloso': /cerebel|dismetr|adiadoco|ebriosa/i,
+  'sx-meningeo': /men[ií]ng|Kernig|Brudzinski|nuca/i,
+  hte: /endocraneana|papila|Cushing|herni|VI par|chorro|par m[aá]s lesionado/i,
+  lcr: /LCR|l[ií]quido cefal|punci[oó]n lumbar|meningitis bacteriana|viral|tubercul/i,
+  'ulcera-gastritis': /[uú]lcera|gastritis|pylori|AINE|endoscop/i,
+  'digestivo-alto': /pil[oó]ric|esof|disfagia|v[oó]mit|dispepsia|pirosis|[uú]lcera|gastritis|hemat[eé]mesis|bazuqueo/i,
+};
+
+/** Capítulos del banco de citas que no son capítulos de la plataforma (alias). */
+export const ALIAS_CITAS: Record<string, string[]> = {
+  'dig-05': ['dig-05', 'man-digestivo'],
+  'soma-01': ['man-soma'],
+};
