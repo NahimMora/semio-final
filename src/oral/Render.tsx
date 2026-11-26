@@ -60,7 +60,7 @@ export function Bloque({ b, impreso }: { b: BloqueOral; impreso?: boolean }) {
                 {b.filas.map((f, i) => (
                   <tr key={i}>
                     {f.map((c, j) => (
-                      <td key={j} className={j === b.marca ? 'is-marca' : undefined}>
+                      <td key={j} data-label={b.head[j] || undefined} className={j === b.marca ? 'is-marca' : undefined}>
                         <Rich text={c} />
                       </td>
                     ))}

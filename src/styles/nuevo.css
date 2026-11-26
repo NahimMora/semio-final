@@ -191,3 +191,56 @@ html, body { background: var(--nx-fondo); }
 
 /* El visor de diapositivas heredado, dentro de la interfaz nueva */
 .nx .visor, .nx .clase { color: var(--ink); }
+
+/* ═══ Visor de diapositivas dentro de la interfaz nueva (27/11) ═══
+   1) Controles pegados debajo de la diapositiva: el texto de la narración (de largo variable) va después,
+      así los botones no se mueven de una diapositiva a otra. */
+.nx .visor { display: flex; flex-direction: column; }
+.nx .visor > * { order: 6; }
+.nx .visor > .visor__apartados { order: 1; }
+.nx .visor > .visor__escenario { order: 2; }
+.nx .visor > .visor__control { order: 3; margin-top: 10px; }
+.nx .visor > .visor__paso { order: 4; }
+.nx .visor > .visor__extra { order: 5; }
+.nx .visor__narracion { min-height: 7.5em; }
+/* 2) Misma tipografía que la página */
+.nx { --font-display: var(--nx-titulo); --font-body: var(--nx-texto); }
+.nx .visor h1, .nx .visor h2, .nx .visor h3, .nx .visor strong { font-family: inherit; }
+.nx .sl-comparar__c h3, .nx .sl-comparar__c strong:first-child { font-family: var(--nx-titulo); letter-spacing: 0.01em; }
+/* 3) Íconos con color y fondo, no trazos blancos */
+.nx .sl-ico { box-sizing: content-box; padding: calc(var(--u, 8px) * 0.9); border-radius: 50%; background: var(--accent-100); color: var(--accent-400); }
+.nx .sl-secuencia__i { color: var(--accent-400); }
+/* 4) Árbol: los grupos en columnas y sus hijos uno debajo del otro (no se pisan) */
+.nx .sl-arbol__h .sl-arbol__h { flex-direction: column; align-items: stretch; flex-wrap: nowrap; }
+.nx .sl-arbol__h .sl-arbol__h::before { display: none; }
+.nx .sl-arbol__h .sl-arbol__h > .sl-arbol__n { flex: 0 0 auto; }
+/* Angosto: los grupos uno debajo del otro y, dentro de cada grupo, sus partes lado a lado. */
+@container (max-width: 560px) {
+  .nx .sl-arbol__n--0 > .sl-arbol__h { flex-direction: column; align-items: stretch; flex-wrap: nowrap; gap: 10px; }
+  .nx .sl-arbol__n--0 > .sl-arbol__h::before { display: none; }
+  .nx .sl-arbol__n--1 { flex: 0 0 auto; }
+  .nx .sl-arbol__n--1 > .sl-arbol__h { flex-direction: row; align-items: stretch; }
+  .nx .sl-arbol__n--1 > .sl-arbol__h > .sl-arbol__n { flex: 1 1 0; }
+  .nx .sl-arbol { font-size: 14px; }
+}
+.nx .sl-clave { font-family: var(--nx-texto); font-weight: 700; }
+
+/* ═══ Cuadros del apunte: sin desplazamiento lateral en pantallas angostas ═══
+   Debajo de 700 px cada fila se convierte en una ficha con el nombre de cada columna. */
+@media (max-width: 700px) {
+  .ap-scroll { overflow: visible; border: 0; }
+  .ap-cuadro table { min-width: 0; }
+  .ap-cuadro thead { display: none; }
+  .ap-cuadro table, .ap-cuadro tbody, .ap-cuadro tr, .ap-cuadro td { display: block; width: 100%; box-sizing: border-box; }
+  .ap-cuadro tr { background: var(--nx-capa); border-radius: 12px; margin-bottom: 8px; padding: 10px 12px; }
+  .ap-cuadro td { border: 0; padding: 3px 0; white-space: normal !important; }
+  .ap-cuadro td:first-child { font-size: 17px; color: var(--nx-azul-2); padding-bottom: 4px; }
+  .ap-cuadro td[data-label]:not(:first-child)::before { content: attr(data-label); display: block; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--nx-tinta-3); margin-top: 4px; }
+}
+/* En pantallas angostas la diapositiva tiene altura fija: los botones quedan siempre en el mismo lugar. */
+@media (max-width: 760px) {
+  .nx .visor__escenario { height: clamp(430px, 66vh, 590px); overflow-y: auto; overscroll-behavior: contain; }
+  .nx .visor__escenario > * { min-height: 100%; }
+}
+.ap-ilus__v { display: none; }
+@media (max-width: 560px) { .ap-ilus__h { display: none; } .ap-ilus__v { display: block; max-width: 360px; } }

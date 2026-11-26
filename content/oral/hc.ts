@@ -74,6 +74,26 @@ export const apunte: ApunteUnidad = {
           text: 'Interrogatorio **por aparatos y sistemas** para no omitir síntomas que el paciente no relacionó: respiratorio, cardiovascular, digestivo, nefrourológico, endocrino, hematológico, nervioso, ginecológico.',
         },
         {
+          t: 'cuadro',
+          titulo: 'Examen físico: los cuatro métodos',
+          head: ['Método', 'Qué es', 'Qué aporta'],
+          filas: [
+            ['**Inspección**', 'Observar. Empieza **cuando el paciente entra** y sigue en todo el examen. Con buena luz y respetando el pudor.', '**Estática** (paciente quieto) y **dinámica** (espontánea: marcha, movimientos; u ordenada: lo que le pido que haga).'],
+            ['**Palpación**', 'Con las manos templadas, primero **superficial** y después **profunda**.', 'Sensibilidad (dolor), **temperatura**, **forma, tamaño, consistencia y situación** (su fin principal), movimientos: vibraciones y latidos.'],
+            ['**Percusión**', '**Dígito-digital**: el dedo percutor golpea en martillo sobre el **dedo plexímetro** apoyado de plano.', '**Sonoridad** (pulmón) · **matidez** (sólido o líquido) · **timpanismo** (aire en víscera hueca) · submatidez · hipersonoridad.'],
+            ['**Auscultación**', 'Con el estetoscopio (mediata) en ambiente silencioso.', '**Campana**: bajas frecuencias (ruidos cardíacos, algunos soplos). **Membrana**: altas frecuencias.'],
+          ],
+        },
+        {
+          t: 'paso',
+          titulo: 'Examen físico: orden',
+          items: [
+            'De **lo general a lo particular** y con **criterio topográfico**: cabeza, cuello, tórax, abdomen, extremidades; comparando simetrías.',
+            '**Examen general**: signos vitales, peso, talla e IMC; **inspección general** (nivel y contenido de la conciencia, actitud, decúbito, facies, hábito constitucional, nutrición e hidratación); piel y faneras, TCS, ganglios, SOMA.',
+            'En el **abdomen** el orden cambia: se **ausculta antes de palpar** para no modificar los ruidos hidroaéreos.',
+          ],
+        },
+        {
           t: 'clave',
           titulo: 'Valores que te pueden preguntar',
           items: [
@@ -103,8 +123,11 @@ export const apunte: ApunteUnidad = {
         { q: '¿Qué es la epicrisis y cuándo se hace?', a: 'El cierre de la HC, al alta o al fallecimiento: diagnóstico de alta, tratamiento y resultados, pronóstico y plan.' },
         { q: '¿Por qué preguntás por TBC en los familiares si no es hereditaria?', a: 'Por el contagio en los convivientes: es un antecedente familiar aunque no hereditario.' },
         { q: '¿De quién es la historia clínica?', a: 'Del paciente; el médico y la institución son sus guardianes legales.' },
+        { q: '¿Qué diferencia hay entre los sonidos de percusión?', a: 'Sonoridad: fuerte, tono bajo, prolongada (pulmón). Matidez: escasa intensidad, tono alto, breve (sólido o líquido). Timpanismo: musical (aire en víscera hueca).' },
+        { q: '¿Qué es la historia clínica orientada al problema?', a: 'La de Weed, usada en consultorio: base de datos, lista de problemas (lo más importante) y notas de evolución con formato SOAP: subjetivo, objetivo, análisis y plan.' },
+        { q: '¿Qué tenés en cuenta en la HC del anciano?', a: 'El deterioro de la memoria y de los sentidos (se completa con interrogatorio indirecto), el contexto social (con quién vive, quién lo cuida) y la polifarmacia.' },
       ],
-      fuentes: 'Instituto Merlín, «Historia clínica» y «Generalidades» · Argente-Álvarez, Semiología Médica, cap. 6 (pp. 47–55) y cap. 7 (pp. 57–59).',
+      fuentes: 'Instituto Merlín, «Historia clínica» y «Generalidades» · Argente-Álvarez, Semiología Médica, cap. 6 (pp. 47–55) y cap. 7 (pp. 57–59) · Baré-Califano, Semiotecnia, cap. 1.',
     },
   ],
   noOlvidar: [
@@ -117,5 +140,7 @@ export const apunte: ApunteUnidad = {
     { q: 'Motivo de consulta bien escrito', a: 'Síntoma + tiempo de evolución, sin diagnóstico.' },
     { q: 'La parte más importante', a: 'Las consideraciones diagnósticas.' },
     { q: 'Paquetes/año', a: 'Cigarrillos/día × años ÷ 20.' },
+    { q: 'Los cuatro métodos del examen', a: 'Inspección, palpación, percusión (dígito-digital) y auscultación; en abdomen se ausculta antes de palpar.' },
+    { q: 'Sonidos de percusión', a: 'Sonoridad, matidez, timpanismo; submatidez e hipersonoridad.' },
   ],
 };

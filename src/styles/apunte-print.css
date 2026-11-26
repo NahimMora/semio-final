@@ -60,3 +60,4 @@ html[data-tema='impreso'], html[data-tema='impreso'] body { background: #fff; }
 .pr .ap-noolvidar dd { margin: 0; }
 @media screen { .pr { padding: 12mm; background: #fff; } }
 .pr-tema.pr-final { break-before: auto; margin-top: 7mm; padding-top: 4mm; border-top: 3px solid #c2436e; }
+.pr .ap-ilus__v { display: none !important; } .pr .ap-ilus__h { display: block !important; }
