@@ -1,6 +1,6 @@
 {
  "fps": 24,
- "total": 6939,
+ "total": 8473,
  "portada": 96,
  "cierre": 120,
  "voz": "es-AR-TomasNeural",
@@ -107,28 +107,52 @@
   },
   {
    "mazo": "fisio",
-   "id": "e-caso",
+   "id": "e-examen",
    "inicio": 4619,
-   "frames": 1243,
+   "frames": 1534,
    "beats": [
     {
      "inicio": 4619,
+     "frames": 393
+    },
+    {
+     "inicio": 5012,
+     "frames": 301
+    },
+    {
+     "inicio": 5313,
+     "frames": 363
+    },
+    {
+     "inicio": 5676,
+     "frames": 477
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "e-caso",
+   "inicio": 6153,
+   "frames": 1243,
+   "beats": [
+    {
+     "inicio": 6153,
      "frames": 309
     },
     {
-     "inicio": 4928,
+     "inicio": 6462,
      "frames": 196
     },
     {
-     "inicio": 5124,
+     "inicio": 6658,
      "frames": 227
     },
     {
-     "inicio": 5351,
+     "inicio": 6885,
      "frames": 199
     },
     {
-     "inicio": 5550,
+     "inicio": 7084,
      "frames": 312
     }
    ]
@@ -136,19 +160,19 @@
   {
    "mazo": "fisio",
    "id": "e-pensar",
-   "inicio": 5862,
+   "inicio": 7396,
    "frames": 957,
    "beats": [
     {
-     "inicio": 5862,
+     "inicio": 7396,
      "frames": 287
     },
     {
-     "inicio": 6149,
+     "inicio": 7683,
      "frames": 363
     },
     {
-     "inicio": 6512,
+     "inicio": 8046,
      "frames": 307
     }
    ]

@@ -132,6 +132,31 @@ const diapos: Diapositiva[] = [
     refs: [A('48–49')],
   },
   {
+    id: 'e-examen',
+    sec: 'examen',
+    titulo: 'El examen físico: cuatro maneras de mirar',
+    amplio: true,
+    bloques: [
+      {
+        t: 'secuencia',
+        items: [
+          { ico: 'ojo', t: 'Inspección', d: 'Desde que entra: estática y dinámica', tono: 'sky' },
+          { ico: 'mano', t: 'Palpación', d: 'Temperatura, dolor, forma, tamaño, consistencia', tono: 'rose' },
+          { ico: 'nudo', t: 'Percusión', d: 'Sonoridad · matidez · timpanismo', tono: 'lilac' },
+          { ico: 'oreja', t: 'Auscultación', d: 'Campana: graves · membrana: agudos', tono: 'mint' },
+        ],
+      },
+      { t: 'clave', en: 3, text: 'De lo **general** a lo **particular**. En el **abdomen** se ausculta **antes** de palpar.', tono: 'sky' },
+    ],
+    voz: [
+      'El examen físico tiene cuatro métodos. La inspección empieza apenas el paciente entra: cómo camina, su facies, su actitud. Es estática, con el paciente quieto, y dinámica, cuando se mueve o le pedís que haga algo.',
+      'La palpación usa las manos: te da la temperatura, el dolor, y sobre todo la forma, el tamaño, la consistencia y la situación de lo que tocás, además de vibraciones y latidos.',
+      'La percusión hace vibrar los tejidos con un dedo que golpea sobre otro apoyado. Lo que hay debajo cambia el sonido: el pulmón con aire suena sonoro, un sólido o un líquido suenan mate, y una víscera con gas suena timpánica.',
+      'Y la auscultación usa el estetoscopio: la campana para los sonidos graves, como algunos ruidos cardíacos y soplos, y la membrana para los agudos. Siempre se va de lo general a lo particular. Y ojo: en el abdomen se ausculta antes de palpar, para no alterar los ruidos intestinales.',
+    ],
+    refs: [M('PDF 1, pp. 6–7'), { src: 'califano', p: 'cap. 1' }],
+  },
+  {
     id: 'e-caso',
     sec: 'caso',
     titulo: 'Un paciente recorre la historia clínica',
@@ -190,6 +215,7 @@ const fisio: Mazo = {
     { id: 'idea', label: 'La idea' },
     { id: 'estructura', label: 'Estructura' },
     { id: 'anamnesis', label: 'Anamnesis' },
+    { id: 'examen', label: 'Examen físico' },
     { id: 'caso', label: 'Un caso' },
     { id: 'elaboracion', label: 'Elaboración' },
   ],

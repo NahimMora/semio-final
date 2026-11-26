@@ -24,7 +24,7 @@ export interface Unidad {
 export const UNIDADES: Unidad[] = [
   // ─── PRIMERA ERA ───
   { id: 'hc', era: 1, sistema: 'hc', titulo: 'Historia clínica', bajada: 'Definición, partes en orden y qué va en cada una.', temas: ['hc'], clases: ['hc-01'] },
-  { id: 'signos', era: 1, sistema: 'signos', titulo: 'Signos y síntomas generales', bajada: 'Dolor, fiebre, disnea, cianosis y edema: mecanismo, tipos y cómo se interrogan.', temas: ['dolor', 'fiebre', 'disnea', 'cianosis', 'edema'], clases: [] },
+  { id: 'signos', era: 1, sistema: 'signos', titulo: 'Signos y síntomas generales', bajada: 'Dolor, fiebre, disnea, cianosis y edema: mecanismo, tipos y cómo se interrogan.', temas: ['dolor', 'fiebre', 'disnea', 'cianosis', 'edema'], clases: ['sig-01'] },
   { id: 'vitales', era: 1, sistema: 'vitales', titulo: 'Examen general y signos vitales', bajada: 'Impresión general y la toma de TA, pulso, FR, temperatura y saturación.', temas: ['examen-general', 'signos-vitales'], clases: [] },
   { id: 'cabeza-cuello', era: 1, sistema: 'cyc', titulo: 'Cabeza y cuello', bajada: 'Cráneo, ojos (ojo rojo), oído, nariz, boca, TCS, ganglios, cuello y tiroides.', temas: ['ef-cabeza', 'ojo-rojo', 'ef-tcs-ganglios', 'ef-cuello-tiroides'], clases: [] },
   { id: 'resp-examen', era: 1, sistema: 'resp', titulo: 'Respiratorio: motivos de consulta y examen del tórax', bajada: 'Tos, expectoración, hemoptisis; inspección, palpación, percusión, auscultación y ruidos.', temas: ['mc-resp', 'hemoptisis', 'ef-torax', 'ruidos-agregados'], clases: [] },

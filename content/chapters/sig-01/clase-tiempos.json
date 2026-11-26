@@ -1,0 +1,217 @@
+{
+ "fps": 24,
+ "total": 9888,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "s-via",
+   "inicio": 96,
+   "frames": 886,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 309
+    },
+    {
+     "inicio": 405,
+     "frames": 206
+    },
+    {
+     "inicio": 611,
+     "frames": 144
+    },
+    {
+     "inicio": 755,
+     "frames": 227
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "s-fibras",
+   "inicio": 982,
+   "frames": 834,
+   "beats": [
+    {
+     "inicio": 982,
+     "frames": 352
+    },
+    {
+     "inicio": 1334,
+     "frames": 482
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "s-referido",
+   "inicio": 1816,
+   "frames": 679,
+   "beats": [
+    {
+     "inicio": 1816,
+     "frames": 495
+    },
+    {
+     "inicio": 2311,
+     "frames": 184
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "s-alicia",
+   "inicio": 2495,
+   "frames": 1032,
+   "beats": [
+    {
+     "inicio": 2495,
+     "frames": 348
+    },
+    {
+     "inicio": 2843,
+     "frames": 389
+    },
+    {
+     "inicio": 3232,
+     "frames": 295
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "s-fiebre",
+   "inicio": 3527,
+   "frames": 1091,
+   "beats": [
+    {
+     "inicio": 3527,
+     "frames": 248
+    },
+    {
+     "inicio": 3775,
+     "frames": 296
+    },
+    {
+     "inicio": 4071,
+     "frames": 188
+    },
+    {
+     "inicio": 4259,
+     "frames": 359
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "s-hipertermia",
+   "inicio": 4618,
+   "frames": 778,
+   "beats": [
+    {
+     "inicio": 4618,
+     "frames": 552
+    },
+    {
+     "inicio": 5170,
+     "frames": 226
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "s-disnea",
+   "inicio": 5396,
+   "frames": 722,
+   "beats": [
+    {
+     "inicio": 5396,
+     "frames": 333
+    },
+    {
+     "inicio": 5729,
+     "frames": 389
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "s-ortopnea",
+   "inicio": 6118,
+   "frames": 826,
+   "beats": [
+    {
+     "inicio": 6118,
+     "frames": 170
+    },
+    {
+     "inicio": 6288,
+     "frames": 140
+    },
+    {
+     "inicio": 6428,
+     "frames": 162
+    },
+    {
+     "inicio": 6590,
+     "frames": 354
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "s-cianosis",
+   "inicio": 6944,
+   "frames": 979,
+   "beats": [
+    {
+     "inicio": 6944,
+     "frames": 288
+    },
+    {
+     "inicio": 7232,
+     "frames": 691
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "s-starling",
+   "inicio": 7923,
+   "frames": 1003,
+   "beats": [
+    {
+     "inicio": 7923,
+     "frames": 365
+    },
+    {
+     "inicio": 8288,
+     "frames": 371
+    },
+    {
+     "inicio": 8659,
+     "frames": 267
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "s-edemas",
+   "inicio": 8926,
+   "frames": 842,
+   "beats": [
+    {
+     "inicio": 8926,
+     "frames": 575
+    },
+    {
+     "inicio": 9501,
+     "frames": 267
+    }
+   ]
+  }
+ ]
+}

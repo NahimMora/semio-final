@@ -2,7 +2,7 @@
   "src": "media/hc-01/clase.mp4",
   "poster": "media/hc-01/clase.jpg",
   "vtt": "media/hc-01/clase.vtt",
-  "duration": "4:49",
+  "duration": "5:53",
   "chapters": [
     {
       "t": 4,
@@ -18,10 +18,14 @@
     },
     {
       "t": 192,
+      "label": "Examen físico"
+    },
+    {
+      "t": 256,
       "label": "Un caso"
     },
     {
-      "t": 244,
+      "t": 308,
       "label": "Elaboración"
     }
   ],
@@ -45,6 +49,10 @@
     {
       "title": "Motivo de consulta y enfermedad actual",
       "text": "Las dos partes que más se confunden. El motivo de consulta es la portada de la historia: en pocas palabras, el síntoma principal y cuánto hace que empezó. Con eso ya sabés qué aparato está en juego. La enfermedad actual es la historia completa de ese problema, en orden cronológico: primero dejás que el paciente cuente libremente y después preguntás para completar. Si tiene antecedentes relacionados, los ponés al principio. Un error típico es escribir un diagnóstico en el motivo de consulta, como neumonía, o derivado por un médico. Eso no orienta: lo que orienta es el síntoma con su tiempo."
+    },
+    {
+      "title": "El examen físico: cuatro maneras de mirar",
+      "text": "El examen físico tiene cuatro métodos. La inspección empieza apenas el paciente entra: cómo camina, su facies, su actitud. Es estática, con el paciente quieto, y dinámica, cuando se mueve o le pedís que haga algo. La palpación usa las manos: te da la temperatura, el dolor, y sobre todo la forma, el tamaño, la consistencia y la situación de lo que tocás, además de vibraciones y latidos. La percusión hace vibrar los tejidos con un dedo que golpea sobre otro apoyado. Lo que hay debajo cambia el sonido: el pulmón con aire suena sonoro, un sólido o un líquido suenan mate, y una víscera con gas suena timpánica. Y la auscultación usa el estetoscopio: la campana para los sonidos graves, como algunos ruidos cardíacos y soplos, y la membrana para los agudos. Siempre se va de lo general a lo particular. Y ojo: en el abdomen se ausculta antes de palpar, para no alterar los ruidos intestinales."
     },
     {
       "title": "Un paciente recorre la historia clínica",

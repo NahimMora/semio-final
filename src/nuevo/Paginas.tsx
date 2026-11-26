@@ -9,13 +9,12 @@ import { Icon } from '@/components/Icon';
 import { Rich } from '@/components/Rich';
 import { VideoPlayer } from '@/components/VideoPlayer';
 import { Visor } from '@/clase/Visor';
-import { loadChapter } from '@/lib/useChapter';
 import { diasEntre, fechaLarga, hoyISO, setBloque, useFinal } from '@/final/store';
 import { textoBolillasDe } from '@/final/ui';
 import { armarFicha, fichaDelDia } from '@/final/ficha';
-import { tieneApunte, useApunte } from '@/oral/apuntes';
+import { cargarClase, tieneApunte, useApunte } from '@/oral/apuntes';
+import type { PlanClase } from '@/clase/tipos';
 import { NoOlvidar, TemaOral } from '@/oral/Render';
-import type { Chapter } from '@/types';
 import '@/styles/clase.css';
 import '@/styles/nuevo.css';
 
@@ -220,12 +219,12 @@ export function UnidadNueva() {
 }
 
 function Entender({ u, porques }: { u: Unidad; porques?: { t: string; p: string }[] }) {
-  const [caps, setCaps] = useState<Chapter[] | null>(null);
+  const [caps, setCaps] = useState<{ id: string; title: string; clase: PlanClase }[] | null>(null);
   const [i, setI] = useState(0);
   useEffect(() => {
     setCaps(null);
     setI(0);
-    void Promise.all(u.clases.map((c) => loadChapter(c))).then((l) => setCaps(l.filter((c): c is Chapter => !!c?.clase)));
+    void Promise.all(u.clases.map((c) => cargarClase(c))).then((l) => setCaps(l.filter((c): c is { id: string; title: string; clase: PlanClase } => !!c)));
   }, [u]);
   if (!u.clases.length)
     return (
@@ -410,7 +409,7 @@ export function BolilleroNuevo() {
 
 /* ═════════ APUNTES ═════════ */
 /** Sistemas con apunte PDF en el formato nuevo (public/pdf/apunte-<id>.pdf). */
-export const PDF_NUEVOS: string[] = ['hc'];
+export const PDF_NUEVOS: string[] = ['hc', 'signos'];
 
 export function ApuntesNuevo() {
   const base = import.meta.env.BASE_URL;

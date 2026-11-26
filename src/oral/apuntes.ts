@@ -2,10 +2,26 @@ import { useEffect, useState } from 'react';
 import type { ApunteUnidad, BloqueOral, ApunteTema } from '@content/oral/tipos';
 import { MANEUVERS } from '@content/maneuvers';
 import { plain } from '@/lib/text';
+import { loadChapter } from '@/lib/useChapter';
+import type { PlanClase } from '@/clase/tipos';
+
+/** Clases visuales nuevas (solo «Para entenderlo», sin capítulo largo). */
+const CLASES_NUEVAS: Record<string, { titulo: string; cargar: () => Promise<{ clase: PlanClase }> }> = {
+  'sig-01': { titulo: 'Signos y síntomas generales', cargar: () => import('@content/chapters/sig-01/clase') },
+};
+
+/** Diapositivas y video de una clase: nueva o de un capítulo existente. */
+export async function cargarClase(id: string): Promise<{ id: string; title: string; clase: PlanClase } | null> {
+  const n = CLASES_NUEVAS[id];
+  if (n) return { id, title: n.titulo, clase: (await n.cargar()).clase };
+  const c = await loadChapter(id);
+  return c?.clase ? { id, title: c.title, clase: c.clase } : null;
+}
 
 /** Apuntes para el oral escritos con el método nuevo. Agregar acá cada unidad terminada. */
 const CARGAR: Record<string, () => Promise<{ apunte: ApunteUnidad }>> = {
   hc: () => import('@content/oral/hc'),
+  signos: () => import('@content/oral/signos'),
 };
 
 export const tieneApunte = (unidad: string) => unidad in CARGAR;
