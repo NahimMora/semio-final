@@ -1,0 +1,41 @@
+{
+ "fps": 24,
+ "total": 1813,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "so-activa",
+   "inicio": 96,
+   "frames": 757,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 235
+    },
+    {
+     "inicio": 331,
+     "frames": 522
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "so-rodilla",
+   "inicio": 853,
+   "frames": 840,
+   "beats": [
+    {
+     "inicio": 853,
+     "frames": 542
+    },
+    {
+     "inicio": 1395,
+     "frames": 298
+    }
+   ]
+  }
+ ]
+}

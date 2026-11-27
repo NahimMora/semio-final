@@ -1,0 +1,26 @@
+{
+  "src": "media/som-01/clase.mp4",
+  "poster": "media/som-01/clase.jpg",
+  "vtt": "media/som-01/clase.vtt",
+  "duration": "1:16",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Sistemática"
+    },
+    {
+      "t": 35,
+      "label": "Rodilla"
+    }
+  ],
+  "script": [
+    {
+      "title": "Activa contra pasiva",
+      "text": "La exploración de una articulación sigue siempre el mismo orden: inspección comparando con el otro lado, palpación, movilidad y maniobras. Y hay un truco clave: comparar la movilidad activa, la que hace el paciente, con la pasiva, la que hace el médico. Si las dos están limitadas, el problema es de la articulación misma. Si el paciente no puede moverla pero vos sí, la articulación está bien: falla el que la mueve, un nervio o un tendón roto."
+    },
+    {
+      "title": "La rodilla: lo que más preguntan",
+      "text": "Ortega avisó que las maniobras de rodilla son las que más preguntan. Cada una tensa una estructura distinta. En el cajón, si la tibia se desliza hacia adelante o hacia atrás, están rotos los ligamentos cruzados. En el bostezo, si la articulación se abre al forzar el valgo o el varo, están rotos los colaterales. McMurray, rotando y extendiendo la rodilla, explora los meniscos. Y en el choque rotuliano, si la rótula se hunde y rebota, hay líquido: un derrame."
+    }
+  ]
+}

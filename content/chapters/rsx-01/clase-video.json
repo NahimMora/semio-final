@@ -1,0 +1,34 @@
+{
+  "src": "media/rsx-01/clase.mp4",
+  "poster": "media/rsx-01/clase.jpg",
+  "vtt": "media/rsx-01/clase.vtt",
+  "duration": "2:06",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Glomérulo"
+    },
+    {
+      "t": 46,
+      "label": "IRA"
+    },
+    {
+      "t": 83,
+      "label": "ERC"
+    }
+  ],
+  "script": [
+    {
+      "title": "Un filtro que deja pasar o un filtro roto",
+      "text": "Los dos síndromes glomerulares se entienden pensando en el glomérulo como un filtro. En el nefrótico el filtro deja pasar proteínas: se pierden más de tres gramos y medio por día, la albúmina baja, el agua sale de los vasos y aparece un edema masivo, con hiperlipidemia. No hay sangre en la orina. En el nefrítico, en cambio, el capilar glomerular se inflama y se rompe: pasan glóbulos rojos, hay hematuria con cilindros hemáticos, y como cae el filtrado, el riñón retiene sal y agua y aparecen hipertensión, oliguria y aumento de la urea. El típico es el postestreptocócico, una o dos semanas después de una faringitis."
+    },
+    {
+      "title": "IRA: antes, dentro o después del riñón",
+      "text": "La insuficiencia renal aguda puede venir de antes, de dentro o de después del riñón. Prerrenal: no le llega sangre, por hipovolemia o falla cardíaca; es la más frecuente. Como el túbulo está sano y cree que falta volumen, guarda todo el sodio: el sodio urinario es menor de veinte. Renal: el daño está en el riñón, sobre todo la necrosis tubular; el túbulo roto no puede retener sodio y el sodio urinario es mayor de cuarenta. Posrenal: la orina no puede salir, por una próstata grande o cálculos, y suele dar anuria."
+    },
+    {
+      "title": "ERC: menos nefronas, menos funciones",
+      "text": "En la enfermedad renal crónica se van perdiendo nefronas en forma irreversible, y el riñón va perdiendo funciones. Deja de excretar: se acumulan la urea, el potasio, el ácido y el agua. Y deja de fabricar y de concentrar: sin eritropoyetina aparece anemia, sin vitamina D baja el calcio, y como no concentra, el paciente orina de noche. Cuando el filtrado cae por debajo de quince, estadio cinco, se piensa en diálisis, que se indica con cualquiera de las vocales: acidosis, electrolitos, intoxicaciones, sobrecarga o uremia."
+    }
+  ]
+}

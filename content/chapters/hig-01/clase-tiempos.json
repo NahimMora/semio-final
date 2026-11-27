@@ -1,1 +1,61 @@
-{"fps":24,"total":100,"portada":96,"cierre":120,"voz":"es-AR-TomasNeural","diapos":[]}
+{
+ "fps": 24,
+ "total": 3090,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "hg-bili",
+   "inicio": 96,
+   "frames": 1106,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 424
+    },
+    {
+     "inicio": 520,
+     "frames": 233
+    },
+    {
+     "inicio": 753,
+     "frames": 449
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "hg-cirrosis",
+   "inicio": 1202,
+   "frames": 1000,
+   "beats": [
+    {
+     "inicio": 1202,
+     "frames": 507
+    },
+    {
+     "inicio": 1709,
+     "frames": 493
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "hg-gasa",
+   "inicio": 2202,
+   "frames": 768,
+   "beats": [
+    {
+     "inicio": 2202,
+     "frames": 386
+    },
+    {
+     "inicio": 2588,
+     "frames": 382
+    }
+   ]
+  }
+ ]
+}

@@ -7,6 +7,13 @@ import type { PlanClase } from '@/clase/tipos';
 
 /** Clases visuales nuevas (solo «Para entenderlo», sin capítulo largo). */
 const CLASES_NUEVAS: Record<string, { titulo: string; cargar: () => Promise<{ clase: PlanClase }> }> = {
+  'men-01': { titulo: "Síndrome meníngeo, HTE y LCR", cargar: () => import('@content/chapters/men-01/clase') },
+  'nsx-01': { titulo: "Síndromes motores", cargar: () => import('@content/chapters/nsx-01/clase') },
+  'par-01': { titulo: "Pares craneales", cargar: () => import('@content/chapters/par-01/clase') },
+  'nex-01': { titulo: "Examen neurológico", cargar: () => import('@content/chapters/nex-01/clase') },
+  'som-01': { titulo: "SOMA: exploración articular", cargar: () => import('@content/chapters/som-01/clase') },
+  'rsx-01': { titulo: "Síndromes renales e insuficiencia renal", cargar: () => import('@content/chapters/rsx-01/clase') },
+  'rex-01': { titulo: "Examen renal, orina e infección urinaria", cargar: () => import('@content/chapters/rex-01/clase') },
   'hig-01': { titulo: "Ictericia, cirrosis, hipertensión portal y ascitis", cargar: () => import('@content/chapters/hig-01/clase') },
   'con-01': { titulo: "Constipación", cargar: () => import('@content/chapters/con-01/clase') },
   'aba-01': { titulo: "Abdomen agudo y peritonitis", cargar: () => import('@content/chapters/aba-01/clase') },
@@ -34,6 +41,13 @@ export async function cargarClase(id: string): Promise<{ id: string; title: stri
 
 /** Apuntes para el oral escritos con el método nuevo. Agregar acá cada unidad terminada. */
 const CARGAR: Record<string, () => Promise<{ apunte: ApunteUnidad }>> = {
+  meninges: () => import('@content/oral/meninges'),
+  'neuro-sindromes': () => import('@content/oral/neuro-sindromes'),
+  pares: () => import('@content/oral/pares'),
+  'neuro-examen': () => import('@content/oral/neuro-examen'),
+  soma: () => import('@content/oral/soma'),
+  'renal-sindromes': () => import('@content/oral/renal-sindromes'),
+  'renal-examen': () => import('@content/oral/renal-examen'),
   higado: () => import('@content/oral/higado'),
   constipacion: () => import('@content/oral/constipacion'),
   'abdomen-agudo': () => import('@content/oral/abdomen-agudo'),

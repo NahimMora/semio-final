@@ -38,6 +38,20 @@ import { clase as planCon01 } from '../../content/chapters/con-01/clase';
 import tiemposCon01 from '../../content/chapters/con-01/clase-tiempos.json';
 import { clase as planHig01 } from '../../content/chapters/hig-01/clase';
 import tiemposHig01 from '../../content/chapters/hig-01/clase-tiempos.json';
+import { clase as planRex01 } from '../../content/chapters/rex-01/clase';
+import tiemposRex01 from '../../content/chapters/rex-01/clase-tiempos.json';
+import { clase as planRsx01 } from '../../content/chapters/rsx-01/clase';
+import tiemposRsx01 from '../../content/chapters/rsx-01/clase-tiempos.json';
+import { clase as planSom01 } from '../../content/chapters/som-01/clase';
+import tiemposSom01 from '../../content/chapters/som-01/clase-tiempos.json';
+import { clase as planNex01 } from '../../content/chapters/nex-01/clase';
+import tiemposNex01 from '../../content/chapters/nex-01/clase-tiempos.json';
+import { clase as planPar01 } from '../../content/chapters/par-01/clase';
+import tiemposPar01 from '../../content/chapters/par-01/clase-tiempos.json';
+import { clase as planNsx01 } from '../../content/chapters/nsx-01/clase';
+import tiemposNsx01 from '../../content/chapters/nsx-01/clase-tiempos.json';
+import { clase as planMen01 } from '../../content/chapters/men-01/clase';
+import tiemposMen01 from '../../content/chapters/men-01/clase-tiempos.json';
 import { clase as planHc01 } from '../../content/chapters/hc-01/clase';
 import tiemposHc01 from '../../content/chapters/hc-01/clase-tiempos.json';
 import { clase as planDig02 } from '../../content/chapters/dig-02/clase';
@@ -261,6 +275,13 @@ interface CapClase {
 const PLAN_PARCIAL = { fisio: { id: 'fisio', secciones: [], diapos: [] }, teoria: MAZO_PARCIAL } as unknown as PlanClase;
 
 const CLASES: CapClase[] = [
+  { id: 'men-01-clase', titulo: "Síndrome meníngeo, HTE y LCR", plan: planMen01, tiempos: tiemposMen01 as TiemposClase },
+  { id: 'nsx-01-clase', titulo: "Síndromes motores", plan: planNsx01, tiempos: tiemposNsx01 as TiemposClase },
+  { id: 'par-01-clase', titulo: "Pares craneales", plan: planPar01, tiempos: tiemposPar01 as TiemposClase },
+  { id: 'nex-01-clase', titulo: "Examen neurológico", plan: planNex01, tiempos: tiemposNex01 as TiemposClase },
+  { id: 'som-01-clase', titulo: "SOMA: exploración articular", plan: planSom01, tiempos: tiemposSom01 as TiemposClase },
+  { id: 'rsx-01-clase', titulo: "Síndromes renales e insuficiencia renal", plan: planRsx01, tiempos: tiemposRsx01 as TiemposClase },
+  { id: 'rex-01-clase', titulo: "Examen renal, orina e infección urinaria", plan: planRex01, tiempos: tiemposRex01 as TiemposClase },
   { id: 'hig-01-clase', titulo: "Ictericia, cirrosis, hipertensión portal y ascitis", plan: planHig01, tiempos: tiemposHig01 as TiemposClase },
   { id: 'con-01-clase', titulo: "Constipación", plan: planCon01, tiempos: tiemposCon01 as TiemposClase },
   { id: 'aba-01-clase', titulo: "Abdomen agudo y peritonitis", plan: planAba01, tiempos: tiemposAba01 as TiemposClase },

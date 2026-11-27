@@ -1,0 +1,34 @@
+{
+  "src": "media/rex-01/clase.mp4",
+  "poster": "media/rex-01/clase.jpg",
+  "vtt": "media/rex-01/clase.vtt",
+  "duration": "1:48",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Examen"
+    },
+    {
+      "t": 41,
+      "label": "Orina"
+    },
+    {
+      "t": 71,
+      "label": "ITU"
+    }
+  ],
+  "script": [
+    {
+      "title": "Un órgano profundo se palpa entre dos manos",
+      "text": "Los riñones están detrás del peritoneo, en lo profundo de la fosa lumbar, así que casi no se ven ni se palpan. Por eso se exploran entre dos manos: una en la región lumbar empuja el riñón hacia adelante y la otra, apoyada en el abdomen, lo recibe como un rebote. Es el peloteo de la maniobra de Guyon. Se completa en otras posiciones: Israel en decúbito lateral, Montenegro boca abajo y Glénard para buscar la ptosis. Y la puñopercusión lumbar, que normalmente no duele, se vuelve dolorosa en la pielonefritis o la litiasis."
+    },
+    {
+      "title": "El cilindro es un molde del túbulo",
+      "text": "Un cilindro se forma dentro del túbulo, como un molde de gelatina. Lo que quede atrapado adentro viene sí o sí del riñón, no de la vejiga ni de la uretra. Por eso los cilindros hemáticos indican sangre que sale del glomérulo, una glomerulonefritis; los leucocitarios, una infección del riñón, la pielonefritis; los epiteliales, células del túbulo que se desprenden en la necrosis tubular; y los anchos y céreos, túbulos dilatados de un riñón crónico."
+    },
+    {
+      "title": "La infección sube",
+      "text": "Casi todas las infecciones urinarias suben desde abajo: gérmenes del intestino, sobre todo Escherichia coli, colonizan la uretra y llegan a la vejiga. La mujer, con una uretra corta, tiene más riesgo. Si se queda en la vejiga es una cistitis: la vejiga inflamada molesta al orinar, con disuria, polaquiuria y tenesmo, y sin fiebre. Si sube al riñón es una pielonefritis: fiebre alta, escalofríos, dolor lumbar y puñopercusión positiva."
+    }
+  ]
+}

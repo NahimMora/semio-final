@@ -1,0 +1,61 @@
+{
+ "fps": 24,
+ "total": 3024,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "rs-filtro",
+   "inicio": 96,
+   "frames": 1011,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 485
+    },
+    {
+     "inicio": 581,
+     "frames": 526
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "rs-ira",
+   "inicio": 1107,
+   "frames": 898,
+   "beats": [
+    {
+     "inicio": 1107,
+     "frames": 484
+    },
+    {
+     "inicio": 1591,
+     "frames": 244
+    },
+    {
+     "inicio": 1835,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "rs-erc",
+   "inicio": 2005,
+   "frames": 899,
+   "beats": [
+    {
+     "inicio": 2005,
+     "frames": 337
+    },
+    {
+     "inicio": 2342,
+     "frames": 562
+    }
+   ]
+  }
+ ]
+}

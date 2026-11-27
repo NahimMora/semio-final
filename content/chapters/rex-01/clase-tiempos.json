@@ -1,0 +1,65 @@
+{
+ "fps": 24,
+ "total": 2595,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "rx-peloteo",
+   "inicio": 96,
+   "frames": 901,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 191
+    },
+    {
+     "inicio": 287,
+     "frames": 314
+    },
+    {
+     "inicio": 601,
+     "frames": 209
+    },
+    {
+     "inicio": 810,
+     "frames": 187
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "rx-cilindros",
+   "inicio": 997,
+   "frames": 723,
+   "beats": [
+    {
+     "inicio": 997,
+     "frames": 274
+    },
+    {
+     "inicio": 1271,
+     "frames": 449
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "rx-itu",
+   "inicio": 1720,
+   "frames": 755,
+   "beats": [
+    {
+     "inicio": 1720,
+     "frames": 341
+    },
+    {
+     "inicio": 2061,
+     "frames": 414
+    }
+   ]
+  }
+ ]
+}
