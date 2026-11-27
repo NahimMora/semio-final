@@ -1,1 +1,34 @@
-{}
+{
+  "src": "media/par-01/clase.mp4",
+  "poster": "media/par-01/clase.jpg",
+  "vtt": "media/par-01/clase.vtt",
+  "duration": "1:47",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Óptico"
+    },
+    {
+      "t": 41,
+      "label": "Facial"
+    },
+    {
+      "t": 78,
+      "label": "Auditivo"
+    }
+  ],
+  "script": [
+    {
+      "title": "La vía óptica: dónde se cruza",
+      "text": "Ortega dice que la vía óptica hay que saberla como el Padre Nuestro. La clave es el quiasma. Antes del quiasma, una lesión del nervio óptico deja ciego ese ojo. En el quiasma se cruzan solo las fibras nasales de la retina, que son las que ven el campo temporal. Por eso un tumor de hipófisis, que aprieta el quiasma desde abajo, borra los dos campos temporales: hemianopsia bitemporal. Y detrás del quiasma, cada cintilla lleva la mitad del campo del lado opuesto de los dos ojos: la lesión da una hemianopsia homónima contralateral."
+    },
+    {
+      "title": "Facial: ¿se salva la frente?",
+      "text": "La parálisis facial es otra pregunta segura. El núcleo del facial que maneja la frente recibe órdenes de los dos hemisferios; el de la mitad de abajo, solo del hemisferio opuesto. Entonces, si la lesión es central, como un ACV, se paraliza solo la mitad inferior de la cara del lado opuesto, y la frente se salva porque el otro hemisferio la sigue mandando. Si la lesión es periférica, del nervio, como la parálisis de Bell, se paraliza toda la hemicara del mismo lado: no arruga la frente ni puede cerrar el ojo, y queda a la vista la esclerótica."
+    },
+    {
+      "title": "Weber y Rinne: ¿conducción o percepción?",
+      "text": "Con el diapasón separás las dos hipoacusias. En la de conducción, el problema está en el oído externo o medio. El Weber va al oído enfermo y el Rinne es negativo, porque la vía ósea gana a la aérea. En la de percepción, el oído interno o el nervio no funcionan: el Weber se va al oído sano y el Rinne sigue positivo."
+    }
+  ]
+}

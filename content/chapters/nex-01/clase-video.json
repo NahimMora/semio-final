@@ -1,1 +1,34 @@
-{}
+{
+  "src": "media/nex-01/clase.mp4",
+  "poster": "media/nex-01/clase.jpg",
+  "vtt": "media/nex-01/clase.vtt",
+  "duration": "1:50",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Mapa"
+    },
+    {
+      "t": 34,
+      "label": "Reflejos"
+    },
+    {
+      "t": 66,
+      "label": "Taxia"
+    }
+  ],
+  "script": [
+    {
+      "title": "El mapa del examen neurológico",
+      "text": "El examen neurológico sigue un mapa. Primero la inspección: facies, actitud y marcha. Después la conciencia: orientación y escala de Glasgow. Después los doce pares craneales. Después la motilidad: tono y trofismo, fuerza y reflejos. Y al final la sensibilidad, las gnosias, las praxias y la taxia. Tenelo en este orden y en el oral no te vas a perder."
+    },
+    {
+      "title": "El reflejo: un arco con un freno arriba",
+      "text": "Para entender los reflejos, imaginá un arco: el golpe en el tendón entra a la médula y vuelve por la segunda motoneurona al músculo. Y desde arriba, la vía piramidal funciona como un freno. Si se corta el arco, por una lesión de la segunda motoneurona o del nervio, el reflejo desaparece y el músculo queda blando y atrófico. Si se pierde el freno, por una lesión piramidal, los reflejos se exageran, aparece el clonus, la espasticidad y el signo de Babinski."
+    },
+    {
+      "title": "Romberg: ¿qué pasa cuando saco la vista?",
+      "text": "El equilibrio usa cuatro informaciones: la vista, el vestíbulo, la sensibilidad profunda y el cerebelo. El Romberg le saca la vista al paciente. Si el problema es de la sensibilidad profunda o del vestíbulo, la vista estaba compensando: al cerrar los ojos, el paciente cae. Romberg positivo; en el vestibular, siempre hacia el mismo lado. Si el problema es el cerebelo, el paciente ya es inestable con los ojos abiertos, y cerrarlos no cambia nada: Romberg negativo. Ortega lo marca como pregunta segura."
+    }
+  ]
+}

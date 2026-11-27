@@ -1,1 +1,34 @@
-{}
+{
+  "src": "media/men-01/clase.mp4",
+  "poster": "media/men-01/clase.jpg",
+  "vtt": "media/men-01/clase.vtt",
+  "duration": "1:48",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "HTE"
+    },
+    {
+      "t": 42,
+      "label": "Meníngeo"
+    },
+    {
+      "t": 73,
+      "label": "LCR"
+    }
+  ],
+  "script": [
+    {
+      "title": "El cráneo es una caja rígida",
+      "text": "El cráneo es una caja rígida con tres contenidos: el cerebro, la sangre y el líquido cefalorraquídeo. Si algo ocupa lugar, como un tumor o una hemorragia, los otros dos se achican para compensar, hasta que ya no pueden. Entonces la presión sube. Y aparece la tríada que Ortega pregunta siempre: cefalea, vómito en chorro sin náuseas y edema de papila. El par que más se lesiona es el sexto. Y si la presión es muy alta, el efecto Cushing: hipertensión, bradicardia y alteraciones respiratorias."
+    },
+    {
+      "title": "Meninges inflamadas: no las estires",
+      "text": "Cuando las meninges están inflamadas, duelen al estirarse. Flexionar la nuca o la pierna estira las meninges y las raíces, y el paciente se defiende: contrae la nuca, que queda rígida, o flexiona las rodillas para aflojar. Eso son el Kernig y el Brudzinski. Y la pregunta que Ortega hace siempre: meningitis es clínica más líquido alterado; meningismo, clínica con líquido normal; y reacción meníngea, líquido alterado sin clínica."
+    },
+    {
+      "title": "El LCR en tres meningitis",
+      "text": "En la meningitis bacteriana el líquido es turbio, con neutrófilos y glucosa baja. La viral es la más benigna: líquido claro, linfocitos y glucosa normal. Y la tuberculosa es la trampa: claro y con linfocitos como la viral, pero con glucosa baja y cloruros bajos. Y antes de punzar, siempre fondo de ojo: con edema de papila la punción está contraindicada, por riesgo de enclavamiento."
+    }
+  ]
+}

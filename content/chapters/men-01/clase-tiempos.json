@@ -1,1 +1,69 @@
-{"fps":24,"total":100,"portada":96,"cierre":120,"voz":"es-AR-TomasNeural","diapos":[]}
+{
+ "fps": 24,
+ "total": 2586,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "mn-caja",
+   "inicio": 96,
+   "frames": 931,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 195
+    },
+    {
+     "inicio": 291,
+     "frames": 203
+    },
+    {
+     "inicio": 494,
+     "frames": 83
+    },
+    {
+     "inicio": 577,
+     "frames": 450
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "mn-meninges",
+   "inicio": 1027,
+   "frames": 740,
+   "beats": [
+    {
+     "inicio": 1027,
+     "frames": 441
+    },
+    {
+     "inicio": 1468,
+     "frames": 299
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "mn-lcr",
+   "inicio": 1767,
+   "frames": 699,
+   "beats": [
+    {
+     "inicio": 1767,
+     "frames": 154
+    },
+    {
+     "inicio": 1921,
+     "frames": 331
+    },
+    {
+     "inicio": 2252,
+     "frames": 214
+    }
+   ]
+  }
+ ]
+}

@@ -1,1 +1,65 @@
-{"fps":24,"total":100,"portada":96,"cierre":120,"voz":"es-AR-TomasNeural","diapos":[]}
+{
+ "fps": 24,
+ "total": 2630,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "nx-mapa",
+   "inicio": 96,
+   "frames": 740,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 306
+    },
+    {
+     "inicio": 402,
+     "frames": 208
+    },
+    {
+     "inicio": 610,
+     "frames": 226
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "nx-reflejo",
+   "inicio": 836,
+   "frames": 751,
+   "beats": [
+    {
+     "inicio": 836,
+     "frames": 322
+    },
+    {
+     "inicio": 1158,
+     "frames": 429
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "nx-romberg",
+   "inicio": 1587,
+   "frames": 923,
+   "beats": [
+    {
+     "inicio": 1587,
+     "frames": 282
+    },
+    {
+     "inicio": 1869,
+     "frames": 337
+    },
+    {
+     "inicio": 2206,
+     "frames": 304
+    }
+   ]
+  }
+ ]
+}

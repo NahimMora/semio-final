@@ -1,1 +1,69 @@
-{"fps":24,"total":100,"portada":96,"cierre":120,"voz":"es-AR-TomasNeural","diapos":[]}
+{
+ "fps": 24,
+ "total": 2555,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "ns-dos",
+   "inicio": 96,
+   "frames": 901,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 537
+    },
+    {
+     "inicio": 633,
+     "frames": 364
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "ns-parkinson",
+   "inicio": 997,
+   "frames": 637,
+   "beats": [
+    {
+     "inicio": 997,
+     "frames": 130
+    },
+    {
+     "inicio": 1127,
+     "frames": 167
+    },
+    {
+     "inicio": 1294,
+     "frames": 340
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "ns-cerebelo",
+   "inicio": 1634,
+   "frames": 801,
+   "beats": [
+    {
+     "inicio": 1634,
+     "frames": 284
+    },
+    {
+     "inicio": 1918,
+     "frames": 132
+    },
+    {
+     "inicio": 2050,
+     "frames": 170
+    },
+    {
+     "inicio": 2220,
+     "frames": 215
+    }
+   ]
+  }
+ ]
+}

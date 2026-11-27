@@ -1,1 +1,34 @@
-{}
+{
+  "src": "media/nsx-01/clase.mp4",
+  "poster": "media/nsx-01/clase.jpg",
+  "vtt": "media/nsx-01/clase.vtt",
+  "duration": "1:46",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Motoneuronas"
+    },
+    {
+      "t": 41,
+      "label": "Parkinson"
+    },
+    {
+      "t": 68,
+      "label": "Cerebelo"
+    }
+  ],
+  "script": [
+    {
+      "title": "Primera o segunda motoneurona",
+      "text": "Los dos grandes síndromes motores se distinguen por qué neurona se lesiona. En el piramidal, la primera motoneurona, se pierde el freno que la corteza ejerce sobre los reflejos: aparecen espasticidad, hiperreflexia, clonus y Babinski, sin atrofia. Y como la vía se cruza en el bulbo, la parálisis es del lado opuesto a la lesión. En la segunda motoneurona se corta la última vía hacia el músculo: el músculo queda sin orden, sin tono y sin trofismo. Es la triple A: atonía, arreflexia y atrofia, con fasciculaciones y sin Babinski."
+    },
+    {
+      "title": "Parkinson: falta dopamina",
+      "text": "En la enfermedad de Parkinson mueren las neuronas de la sustancia negra. Esas neuronas fabrican dopamina, y sin dopamina los núcleos de la base frenan el movimiento. De ahí la tríada que Ortega pregunta siempre: bradicinesia, la lentitud para iniciar y hacer los movimientos; rigidez en rueda dentada; y temblor de reposo, que desaparece al moverse y durante el sueño."
+    },
+    {
+      "title": "Cerebelo: el que mide el movimiento",
+      "text": "El cerebelo es el que mide y coordina el movimiento. Cuando falla, el movimiento sale mal medido: el dedo se pasa o no llega a la nariz, eso es la dismetría. No puede alternar movimientos rápidos, la adiadococinesia. Tiembla al acercarse al objetivo, el temblor intencional, que es lo opuesto al del Parkinson. Y como el problema no es la información sino la coordinación, ya es inestable con los ojos abiertos: el Romberg es negativo."
+    }
+  ]
+}

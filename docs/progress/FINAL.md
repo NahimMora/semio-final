@@ -38,20 +38,15 @@
 - Colores: **rojo** = en el bolillero (derivado), **naranja** = `frecuente` con fuente, **azul** = no está en el bolillero.
 - Paleta clara azul/rosada por defecto; la oscura anterior sigue con el botón del ojo.
 
-## 3. Estado por etapas (pedido de la usuaria, en ese orden)
+## 3. Estado (27/11/2026)
 
-| # | Etapa | Estado |
-|---|---|---|
-| 1 | Análisis de las cuatro carpetas | ✅ (sección 1) |
-| 2 | Cobertura completa del bolillero | ✅ matriz + chequeo automático; **desarrollo**: 40 temas listos (ERA 2), 12 parciales, 41 en preparación (ERA 1 casi toda) |
-| 3 | Navegación | ✅ |
-| 4 | Cronograma | ✅ con aprobación de cambios y reprogramación |
-| 5 | Contenidos en orden del cronograma | 🟡 `hc-01` Historia clínica ✅. Siguen: sig-01 (dolor y fiebre), gen-01, cyc-01, cyc-02, res-01…06, car-01…06, com-01, neu-07 |
-| 6 | Apuntes PDF (A4 horizontal, azul y rosa) | ⏳ quedan los manuales viejos de digestivo, renal y neuro; falta el formato nuevo |
-| 7 | Examen físico | 🟡 55 maniobras de ERA 2 con video verificado; faltan las de ERA 1 (Argente videos 2–18) |
-| 8 | Preguntas y respuestas para el oral | 🟡 ERA 2: 236 + desarrollos; HC: 9 desarrollos + 10 choice |
-| 9 | Fichas para ChatGPT | ✅ por día, sistema, bolilla, tema y simulacro (copiar, abrir ChatGPT, .md, .txt) |
-| 10 | Audiovisuales | ⏳ voz de Tomás verificada (`es-AR-TomasNeural`, 26/11); videos y diapositivas de ERA 1 pendientes |
+Las **23 unidades** (ERA 1 y ERA 2) tienen el formato de la reestructuración: **Para entenderlo** (diapositivas nuevas + video con es-AR-TomasNeural) y **Para el oral** (apunte en `content/oral/<unidad>.ts`), y PDF A4 horizontal por sistema (hc, signos, vitales, cyc, resp, cardio, comp, digestivo, renal, soma, neuro). Los **93 temas** tienen apunte (chequeo con un script ad hoc que cruza `tema:` de los apuntes con `TEMAS`).
+
+- ERA 2 refaccionada el 27/11: clases nuevas dex-01, dal-01, aba-01, con-01, hig-01, rex-01, rsx-01, som-01, nex-01, par-01, nsx-01, men-01; las clases largas anteriores quedan como «material anterior» (`anterior` en `unidades.ts`).
+- Citas de Ortega («pregunta de examen», con minuto) tomadas de los capítulos viejos verificados (`kind: 'prof'`) e incluidas en los apuntes de neuro, hígado y SOMA.
+- Merlín no tiene clases de anemia ni de renal: esos apuntes salen de Ortega + Argente.
+- Referencias a Argente revisadas contra su índice: abdomen cap. 41, soplos 29-5, HTA 30-7, anemia 60-1.
+- Fichas para IA (ChatGPT o Claude) por día, unidad, bolilla y sistema usan los apuntes.
 
 ## 4. Diferencias entre fuentes señaladas en pantalla
 - HC: Argente «la anamnesis permite el diagnóstico en > 50 %» vs Merlín «anamnesis + examen = 90 %».

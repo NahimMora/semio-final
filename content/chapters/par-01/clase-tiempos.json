@@ -1,1 +1,65 @@
-{"fps":24,"total":100,"portada":96,"cierre":120,"voz":"es-AR-TomasNeural","diapos":[]}
+{
+ "fps": 24,
+ "total": 2574,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "pa-optica",
+   "inicio": 96,
+   "frames": 908,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 305
+    },
+    {
+     "inicio": 401,
+     "frames": 363
+    },
+    {
+     "inicio": 764,
+     "frames": 240
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "pa-facial",
+   "inicio": 1004,
+   "frames": 891,
+   "beats": [
+    {
+     "inicio": 1004,
+     "frames": 299
+    },
+    {
+     "inicio": 1303,
+     "frames": 287
+    },
+    {
+     "inicio": 1590,
+     "frames": 305
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "pa-weber",
+   "inicio": 1895,
+   "frames": 559,
+   "beats": [
+    {
+     "inicio": 1895,
+     "frames": 354
+    },
+    {
+     "inicio": 2249,
+     "frames": 205
+    }
+   ]
+  }
+ ]
+}
