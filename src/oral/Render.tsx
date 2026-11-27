@@ -257,3 +257,17 @@ export function NoOlvidar({ a, impreso }: { a: ApunteUnidad; impreso?: boolean }
     </section>
   );
 }
+
+export function IntroUnidad({ a, impreso }: { a: ApunteUnidad; impreso?: boolean }) {
+  if (!a.intro) return null;
+  return (
+    <section className="ap-tema ap-intro" id="integrar">
+      <header className="ap-tema__head">
+        <h3>{a.intro.titulo}</h3>
+      </header>
+      {a.intro.bloques.map((b, i) => (
+        <Bloque key={i} b={b} impreso={impreso} />
+      ))}
+    </section>
+  );
+}

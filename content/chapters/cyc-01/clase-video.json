@@ -1,0 +1,42 @@
+{
+  "src": "media/cyc-01/clase.mp4",
+  "poster": "media/cyc-01/clase.jpg",
+  "vtt": "media/cyc-01/clase.vtt",
+  "duration": "2:32",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Cabeza"
+    },
+    {
+      "t": 39,
+      "label": "Ojo rojo"
+    },
+    {
+      "t": 80,
+      "label": "Ganglios"
+    },
+    {
+      "t": 110,
+      "label": "Tiroides"
+    }
+  ],
+  "script": [
+    {
+      "title": "La cabeza, región por región",
+      "text": "La cabeza se examina con los mismos cuatro métodos que todo el cuerpo, recorriendo cráneo, ojos, oído, nariz y boca. En el cráneo miro la forma y palpo las suturas; en la nariz, las fosas y el aleteo; en la boca, la lengua, los dientes, las amígdalas y los conductos de las glándulas salivales. En el ojo hay dos datos clave para todo el final: la ictericia se ve primero en la esclerótica, y la palidez de la anemia, en la conjuntiva del párpado inferior. Las pupilas normales miden dos a cuatro milímetros y son iguales."
+    },
+    {
+      "title": "Ojo rojo: ¿superficial o profundo?",
+      "text": "El ojo rojo es uno de los motivos de consulta más frecuentes, y la pregunta es si es superficial o profundo. La conjuntivitis da enrojecimiento en la periferia, secreción y ardor, pero no duele de verdad, y la visión y la pupila están normales. La hemorragia subconjuntival es una mancha roja bien delimitada que no da síntomas. Lo grave es lo profundo: el enrojecimiento se concentra alrededor del iris, duele y baja la visión. La iridociclitis da miosis, y el glaucoma agudo, dolor intenso, midriasis, un ojo duro al tacto y náuseas y vómitos. Esos van al oftalmólogo de urgencia."
+    },
+    {
+      "title": "Qué dice un ganglio",
+      "text": "Un ganglio normal es chico, de medio a un centímetro, blando, indoloro y móvil. Lo que cambia te orienta a la causa. Cuando duele, es porque la cápsula se estiró rápido, como en una infección. Cuando está duro como una piedra, adherido a la piel o a los planos profundos, el proceso rompió la cápsula: eso es característico de una metástasis. Y el ganglio firme, como una goma de borrar, sugiere un linfoma."
+    },
+    {
+      "title": "La tiroides sube al tragar",
+      "text": "La tiroides está unida a la laringe, así que sube cuando el paciente traga. Ese es el truco para encontrarla y para distinguirla de otras masas del cuello: siempre se le pide que trague. Para palparla por detrás se hace la maniobra de De Quervain, con los pulgares en la nuca y los dedos sobre los lóbulos. Por delante están las maniobras de Lahey y Crile: se desplaza la tráquea con una mano para palpar el lóbulo con la otra. Y se ausculta: si hay un soplo, la glándula está hiperfuncionante, como en la enfermedad de Graves-Basedow."
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import { SISTEMAS_FINAL } from '@content/final/temas';
 import { UNIDADES } from '@content/final/unidades';
 import type { ApunteUnidad } from '@content/oral/tipos';
 import { cargarApunte } from '@/oral/apuntes';
-import { NoOlvidar, TemaOral } from '@/oral/Render';
+import { IntroUnidad, NoOlvidar, TemaOral } from '@/oral/Render';
 import '@/styles/apunte-print.css';
 
 /** Apunte de un sistema para imprimir: /imprimir/apunte/<sistema>. Base del PDF. */
@@ -38,6 +38,11 @@ export function ImprimirApunte() {
       </header>
       {aps.map((a) => (
         <div key={a.unidad}>
+          {a.intro && (
+            <div className="pr-intro">
+              <IntroUnidad a={a} impreso />
+            </div>
+          )}
           {a.temas.map((t) => (
             <div key={t.tema} className="pr-tema">
               <TemaOral t={t} impreso />

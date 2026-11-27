@@ -39,6 +39,8 @@ export interface ApunteTema {
 
 export interface ApunteUnidad {
   unidad: string;
+  /** Lo que integra toda la unidad (p. ej., el cuadro comparativo de los síndromes), antes de los temas. */
+  intro?: { titulo: string; bloques: BloqueOral[] };
   temas: ApunteTema[];
   /** «Lo que no te podés olvidar»: pregunta → respuesta corta. */
   noOlvidar: { q: Inline; a: Inline }[];

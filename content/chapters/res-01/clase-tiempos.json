@@ -1,0 +1,97 @@
+{
+ "fps": 24,
+ "total": 4553,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "r-tos",
+   "inicio": 96,
+   "frames": 994,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 322
+    },
+    {
+     "inicio": 418,
+     "frames": 246
+    },
+    {
+     "inicio": 664,
+     "frames": 426
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "r-hemoptisis",
+   "inicio": 1090,
+   "frames": 707,
+   "beats": [
+    {
+     "inicio": 1090,
+     "frames": 343
+    },
+    {
+     "inicio": 1433,
+     "frames": 364
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "r-metodo",
+   "inicio": 1797,
+   "frames": 845,
+   "beats": [
+    {
+     "inicio": 1797,
+     "frames": 338
+    },
+    {
+     "inicio": 2135,
+     "frames": 507
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "r-vibraciones",
+   "inicio": 2642,
+   "frames": 818,
+   "beats": [
+    {
+     "inicio": 2642,
+     "frames": 357
+    },
+    {
+     "inicio": 2999,
+     "frames": 172
+    },
+    {
+     "inicio": 3171,
+     "frames": 289
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "r-ruidos",
+   "inicio": 3460,
+   "frames": 973,
+   "beats": [
+    {
+     "inicio": 3460,
+     "frames": 424
+    },
+    {
+     "inicio": 3884,
+     "frames": 549
+    }
+   ]
+  }
+ ]
+}

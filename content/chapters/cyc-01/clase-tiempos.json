@@ -1,0 +1,81 @@
+{
+ "fps": 24,
+ "total": 3649,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "c-cabeza",
+   "inicio": 96,
+   "frames": 863,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 496
+    },
+    {
+     "inicio": 592,
+     "frames": 367
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c-ojo-rojo",
+   "inicio": 959,
+   "frames": 982,
+   "beats": [
+    {
+     "inicio": 959,
+     "frames": 521
+    },
+    {
+     "inicio": 1480,
+     "frames": 461
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c-ganglio",
+   "inicio": 1941,
+   "frames": 712,
+   "beats": [
+    {
+     "inicio": 1941,
+     "frames": 234
+    },
+    {
+     "inicio": 2175,
+     "frames": 478
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c-tiroides",
+   "inicio": 2653,
+   "frames": 876,
+   "beats": [
+    {
+     "inicio": 2653,
+     "frames": 298
+    },
+    {
+     "inicio": 2951,
+     "frames": 190
+    },
+    {
+     "inicio": 3141,
+     "frames": 194
+    },
+    {
+     "inicio": 3335,
+     "frames": 194
+    }
+   ]
+  }
+ ]
+}

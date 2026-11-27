@@ -14,7 +14,7 @@ import { textoBolillasDe } from '@/final/ui';
 import { armarFicha, fichaDelDia } from '@/final/ficha';
 import { cargarClase, tieneApunte, useApunte } from '@/oral/apuntes';
 import type { PlanClase } from '@/clase/tipos';
-import { NoOlvidar, TemaOral } from '@/oral/Render';
+import { IntroUnidad, NoOlvidar, TemaOral } from '@/oral/Render';
 import '@/styles/clase.css';
 import '@/styles/nuevo.css';
 
@@ -311,6 +311,7 @@ function Oral({ u, apunte }: { u: Unidad; apunte: ReturnType<typeof useApunte> }
     <>
       {apunte.temas.length > 1 && (
         <nav className="nx-indice" aria-label="Temas de esta unidad">
+          {apunte.intro && <a href="#integrar">{apunte.intro.titulo}</a>}
           {apunte.temas.map((t) => (
             <a key={t.tema} href={`#${t.tema}`}>
               {t.titulo}
@@ -318,6 +319,7 @@ function Oral({ u, apunte }: { u: Unidad; apunte: ReturnType<typeof useApunte> }
           ))}
         </nav>
       )}
+      <IntroUnidad a={apunte} />
       {apunte.temas.map((t) => (
         <TemaOral key={t.tema} t={t} />
       ))}
@@ -409,7 +411,7 @@ export function BolilleroNuevo() {
 
 /* ═════════ APUNTES ═════════ */
 /** Sistemas con apunte PDF en el formato nuevo (public/pdf/apunte-<id>.pdf). */
-export const PDF_NUEVOS: string[] = ['hc', 'signos', 'vitales', 'cyc'];
+export const PDF_NUEVOS: string[] = ['hc', 'signos', 'vitales', 'cyc', 'resp'];
 
 export function ApuntesNuevo() {
   const base = import.meta.env.BASE_URL;
