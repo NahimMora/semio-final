@@ -1,0 +1,113 @@
+{
+ "fps": 24,
+ "total": 5302,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "sr-obstructivo",
+   "inicio": 96,
+   "frames": 955,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 385
+    },
+    {
+     "inicio": 481,
+     "frames": 211
+    },
+    {
+     "inicio": 692,
+     "frames": 359
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "sr-epoc",
+   "inicio": 1051,
+   "frames": 823,
+   "beats": [
+    {
+     "inicio": 1051,
+     "frames": 436
+    },
+    {
+     "inicio": 1487,
+     "frames": 387
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "sr-condensacion",
+   "inicio": 1874,
+   "frames": 867,
+   "beats": [
+    {
+     "inicio": 1874,
+     "frames": 450
+    },
+    {
+     "inicio": 2324,
+     "frames": 417
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "sr-pleural",
+   "inicio": 2741,
+   "frames": 912,
+   "beats": [
+    {
+     "inicio": 2741,
+     "frames": 514
+    },
+    {
+     "inicio": 3255,
+     "frames": 398
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "sr-hipertensivo",
+   "inicio": 3653,
+   "frames": 781,
+   "beats": [
+    {
+     "inicio": 3653,
+     "frames": 291
+    },
+    {
+     "inicio": 3944,
+     "frames": 203
+    },
+    {
+     "inicio": 4147,
+     "frames": 287
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "sr-ir",
+   "inicio": 4434,
+   "frames": 748,
+   "beats": [
+    {
+     "inicio": 4434,
+     "frames": 267
+    },
+    {
+     "inicio": 4701,
+     "frames": 481
+    }
+   ]
+  }
+ ]
+}

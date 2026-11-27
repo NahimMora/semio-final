@@ -1,0 +1,50 @@
+{
+  "src": "media/res-02/clase.mp4",
+  "poster": "media/res-02/clase.jpg",
+  "vtt": "media/res-02/clase.vtt",
+  "duration": "3:41",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Obstructivos"
+    },
+    {
+      "t": 78,
+      "label": "Parénquima"
+    },
+    {
+      "t": 114,
+      "label": "Pleurales"
+    },
+    {
+      "t": 184,
+      "label": "Insuficiencia respiratoria"
+    }
+  ],
+  "script": [
+    {
+      "title": "Obstructivo: el aire entra pero no sale",
+      "text": "Empecemos por el síndrome obstructivo. El problema es un bronquio estrecho: en el asma, porque el músculo liso se contrae, la mucosa se hincha y hay más moco; en la EPOC, por la inflamación crónica del tabaco y la destrucción de los alvéolos. Inspirar se puede, pero en la espiración la presión del tórax aprieta ese bronquio ya estrecho, y el aire queda atrapado adentro. Por eso el tórax se hiperinsufla, suena hipersonoro, la espiración se alarga y se escuchan sibilancias. La gran diferencia es que el asma es reversible con broncodilatadores, y la EPOC es progresiva e irreversible."
+    },
+    {
+      "title": "Abotagado azul y soplador rosado",
+      "text": "La EPOC tiene dos caras. En la bronquitis crónica predomina el bronquio: tos y expectoración al menos tres meses por año durante dos años. Es el abotagado azul: cianótico, con edemas, y con el oxígeno bajo y el dióxido de carbono alto desde temprano. En el enfisema predomina la destrucción de las paredes de los alvéolos. El pulmón pierde su elasticidad y el aire queda atrapado: es el soplador rosado, delgado, que espira con los labios fruncidos, con tórax en tonel e hipersonoridad."
+    },
+    {
+      "title": "Condensación o atelectasia: ¿el bronquio está abierto?",
+      "text": "En los síndromes del parénquima, la pregunta clave es si el bronquio está abierto. En la neumonía el alvéolo se llena de exudado pero el bronquio sigue permeable: el pulmón sólido conduce mejor la voz, así que las vibraciones aumentan, suena mate, y se oye un soplo tubario con crepitantes. En la atelectasia el bronquio está tapado, por un tumor o un tapón de moco. El aire que quedó se reabsorbe y el pulmón se colapsa: también suena mate, pero las vibraciones se abolen y hay silencio auscultatorio, y el pulmón que se achica tira del mediastino hacia su lado."
+    },
+    {
+      "title": "Líquido o aire entre el pulmón y la pared",
+      "text": "En los síndromes pleurales algo se mete entre el pulmón y la pared. Si es líquido, el derrame, se acumula en la parte de abajo, la vibración no llega, el murmullo desaparece y suena mate, con un límite superior cóncavo; en ese borde, donde el pulmón está comprimido, aparecen el soplo pleurítico y la egofonía. Si es aire, el neumotórax, el pulmón se colapsa hacia el hilio. También se abolen las vibraciones y el murmullo, pero suena hipersonoro: es la tríada de Galliard. Así que los dos se parecen en todo, y los separa la percusión."
+    },
+    {
+      "title": "Neumotórax hipertensivo: una válvula",
+      "text": "La forma más grave es el neumotórax hipertensivo. La lesión de la pleura funciona como una válvula: en cada inspiración entra aire, pero en la espiración no sale. La presión en ese hemitórax sube y sube, empuja el mediastino hacia el otro lado y aplasta las venas que vuelven al corazón. Si no vuelve sangre al corazón, cae el gasto: taquicardia, hipotensión, yugulares ingurgitadas y shock. Es una emergencia que se descomprime de inmediato."
+    },
+    {
+      "title": "Insuficiencia respiratoria: oxigenar o ventilar",
+      "text": "Todos estos síndromes, si son graves, terminan en insuficiencia respiratoria: una presión arterial de oxígeno menor de sesenta, respirando aire a nivel del mar. Si solo falla la oxigenación, como en la neumonía o el edema de pulmón, el dióxido de carbono se mantiene normal o baja: es la tipo uno. Si falla la ventilación, la bomba, como en la EPOC avanzada o con sedantes, además se acumula dióxido de carbono por encima de cuarenta y cinco: es la tipo dos."
+    }
+  ]
+}

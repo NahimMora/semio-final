@@ -16,6 +16,10 @@ import { clase as planCyc01 } from '../../content/chapters/cyc-01/clase';
 import tiemposCyc01 from '../../content/chapters/cyc-01/clase-tiempos.json';
 import { clase as planRes01 } from '../../content/chapters/res-01/clase';
 import tiemposRes01 from '../../content/chapters/res-01/clase-tiempos.json';
+import { clase as planRes02 } from '../../content/chapters/res-02/clase';
+import tiemposRes02 from '../../content/chapters/res-02/clase-tiempos.json';
+import { clase as planCar01 } from '../../content/chapters/car-01/clase';
+import tiemposCar01 from '../../content/chapters/car-01/clase-tiempos.json';
 import { clase as planHc01 } from '../../content/chapters/hc-01/clase';
 import tiemposHc01 from '../../content/chapters/hc-01/clase-tiempos.json';
 import { clase as planDig02 } from '../../content/chapters/dig-02/clase';
@@ -239,6 +243,8 @@ interface CapClase {
 const PLAN_PARCIAL = { fisio: { id: 'fisio', secciones: [], diapos: [] }, teoria: MAZO_PARCIAL } as unknown as PlanClase;
 
 const CLASES: CapClase[] = [
+  { id: 'car-01-clase', titulo: "Cardiovascular: motivos de consulta", plan: planCar01, tiempos: tiemposCar01 as TiemposClase },
+  { id: 'res-02-clase', titulo: "Síndromes respiratorios", plan: planRes02, tiempos: tiemposRes02 as TiemposClase },
   { id: 'res-01-clase', titulo: "Respiratorio: motivos de consulta y examen del tórax", plan: planRes01, tiempos: tiemposRes01 as TiemposClase },
   { id: 'cyc-01-clase', titulo: "Cabeza y cuello", plan: planCyc01, tiempos: tiemposCyc01 as TiemposClase },
   { id: 'gen-01-clase', titulo: "Examen general y signos vitales", plan: planGen01, tiempos: tiemposGen01 as TiemposClase },

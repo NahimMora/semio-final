@@ -7,6 +7,8 @@ import type { PlanClase } from '@/clase/tipos';
 
 /** Clases visuales nuevas (solo «Para entenderlo», sin capítulo largo). */
 const CLASES_NUEVAS: Record<string, { titulo: string; cargar: () => Promise<{ clase: PlanClase }> }> = {
+  'car-01': { titulo: "Cardiovascular: motivos de consulta", cargar: () => import('@content/chapters/car-01/clase') },
+  'res-02': { titulo: "Síndromes respiratorios", cargar: () => import('@content/chapters/res-02/clase') },
   'res-01': { titulo: "Respiratorio: motivos de consulta y examen del tórax", cargar: () => import('@content/chapters/res-01/clase') },
   'cyc-01': { titulo: "Cabeza y cuello", cargar: () => import('@content/chapters/cyc-01/clase') },
   'gen-01': { titulo: "Examen general y signos vitales", cargar: () => import('@content/chapters/gen-01/clase') },
@@ -23,6 +25,8 @@ export async function cargarClase(id: string): Promise<{ id: string; title: stri
 
 /** Apuntes para el oral escritos con el método nuevo. Agregar acá cada unidad terminada. */
 const CARGAR: Record<string, () => Promise<{ apunte: ApunteUnidad }>> = {
+  'cardio-examen': () => import('@content/oral/cardio-examen'),
+  'cardio-mc': () => import('@content/oral/cardio-mc'),
   'resp-sindromes': () => import('@content/oral/resp-sindromes'),
   'resp-examen': () => import('@content/oral/resp-examen'),
   'cabeza-cuello': () => import('@content/oral/cabeza-cuello'),
