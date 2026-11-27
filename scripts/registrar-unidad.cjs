@@ -28,6 +28,7 @@ edit('src/oral/apuntes.ts', (s) => {
 // 2) La unidad usa esa clase
 edit('content/final/unidades.ts', (s) => {
   const re = new RegExp(`(\\{ id: '${unidad}',[^\\n]*?clases: \\[)([^\\]]*)\\]`);
+  if (process.env.SOLO) return s.replace(re, (m, a) => `${a}'${claseId}']`);
   return s.replace(re, (m, a, b) => (b.includes(`'${claseId}'`) ? m : `${a}${b ? b + ', ' : ''}'${claseId}']`));
 });
 // 3) Composición de Remotion

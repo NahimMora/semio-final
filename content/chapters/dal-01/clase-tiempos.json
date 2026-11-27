@@ -1,0 +1,89 @@
+{
+ "fps": 24,
+ "total": 4007,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "da-disfagia",
+   "inicio": 96,
+   "frames": 1057,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 558
+    },
+    {
+     "inicio": 654,
+     "frames": 499
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "da-vomito",
+   "inicio": 1153,
+   "frames": 843,
+   "beats": [
+    {
+     "inicio": 1153,
+     "frames": 205
+    },
+    {
+     "inicio": 1358,
+     "frames": 218
+    },
+    {
+     "inicio": 1576,
+     "frames": 127
+    },
+    {
+     "inicio": 1703,
+     "frames": 293
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "da-ulcera",
+   "inicio": 1996,
+   "frames": 799,
+   "beats": [
+    {
+     "inicio": 1996,
+     "frames": 324
+    },
+    {
+     "inicio": 2320,
+     "frames": 475
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "da-hd",
+   "inicio": 2795,
+   "frames": 1092,
+   "beats": [
+    {
+     "inicio": 2795,
+     "frames": 399
+    },
+    {
+     "inicio": 3194,
+     "frames": 155
+    },
+    {
+     "inicio": 3349,
+     "frames": 279
+    },
+    {
+     "inicio": 3628,
+     "frames": 259
+    }
+   ]
+  }
+ ]
+}

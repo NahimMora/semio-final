@@ -61,7 +61,7 @@ export const apunte: ApunteUnidad = {
         { q: '¿Cuándo sospechás una HTA secundaria?', a: 'En jóvenes o después de los 60, comienzo brusco, HTA resistente, hipopotasemia, soplo abdominal, pulsos femorales débiles o crisis adrenérgicas.' },
         { q: '¿Qué diferencia una urgencia de una emergencia hipertensiva?', a: 'La emergencia tiene daño agudo de órgano blanco y requiere descenso inmediato.' },
       ],
-      fuentes: 'Apunte de Ortega, pp. 176–180 · Instituto Merlín, «Hipertensión arterial» · Argente-Álvarez, cap. 30.',
+      fuentes: 'Apunte de Ortega, pp. 176–180 · Instituto Merlín, «Hipertensión arterial» · Argente-Álvarez, cap. 30-7.',
     },
     {
       tema: 'ic',

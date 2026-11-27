@@ -1,0 +1,65 @@
+{
+ "fps": 24,
+ "total": 3152,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "aa-dolor",
+   "inicio": 96,
+   "frames": 908,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 408
+    },
+    {
+     "inicio": 504,
+     "frames": 500
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "aa-cinco",
+   "inicio": 1004,
+   "frames": 1083,
+   "beats": [
+    {
+     "inicio": 1004,
+     "frames": 499
+    },
+    {
+     "inicio": 1503,
+     "frames": 584
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "aa-peritonitis",
+   "inicio": 2087,
+   "frames": 945,
+   "beats": [
+    {
+     "inicio": 2087,
+     "frames": 187
+    },
+    {
+     "inicio": 2274,
+     "frames": 147
+    },
+    {
+     "inicio": 2421,
+     "frames": 241
+    },
+    {
+     "inicio": 2662,
+     "frames": 370
+    }
+   ]
+  }
+ ]
+}

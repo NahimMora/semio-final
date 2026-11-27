@@ -1,0 +1,93 @@
+{
+ "fps": 24,
+ "total": 3524,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "dx-orden",
+   "inicio": 96,
+   "frames": 822,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 215
+    },
+    {
+     "inicio": 311,
+     "frames": 322
+    },
+    {
+     "inicio": 633,
+     "frames": 162
+    },
+    {
+     "inicio": 795,
+     "frames": 123
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "dx-ruidos",
+   "inicio": 918,
+   "frames": 641,
+   "beats": [
+    {
+     "inicio": 918,
+     "frames": 383
+    },
+    {
+     "inicio": 1301,
+     "frames": 258
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "dx-peritoneo",
+   "inicio": 1559,
+   "frames": 796,
+   "beats": [
+    {
+     "inicio": 1559,
+     "frames": 130
+    },
+    {
+     "inicio": 1689,
+     "frames": 207
+    },
+    {
+     "inicio": 1896,
+     "frames": 128
+    },
+    {
+     "inicio": 2024,
+     "frames": 331
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "dx-visceras",
+   "inicio": 2355,
+   "frames": 1049,
+   "beats": [
+    {
+     "inicio": 2355,
+     "frames": 308
+    },
+    {
+     "inicio": 2663,
+     "frames": 375
+    },
+    {
+     "inicio": 3038,
+     "frames": 366
+    }
+   ]
+  }
+ ]
+}

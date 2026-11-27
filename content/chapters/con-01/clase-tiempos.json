@@ -1,0 +1,41 @@
+{
+ "fps": 24,
+ "total": 1424,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "cn-mecanismo",
+   "inicio": 96,
+   "frames": 652,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 302
+    },
+    {
+     "inicio": 398,
+     "frames": 350
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "cn-alarma",
+   "inicio": 748,
+   "frames": 556,
+   "beats": [
+    {
+     "inicio": 748,
+     "frames": 222
+    },
+    {
+     "inicio": 970,
+     "frames": 334
+    }
+   ]
+  }
+ ]
+}

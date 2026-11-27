@@ -1,0 +1,34 @@
+{
+  "src": "media/dex-01/clase.mp4",
+  "poster": "media/dex-01/clase.jpg",
+  "vtt": "media/dex-01/clase.vtt",
+  "duration": "2:27",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Orden y auscultación"
+    },
+    {
+      "t": 64,
+      "label": "Palpación"
+    }
+  ],
+  "script": [
+    {
+      "title": "En el abdomen, palpar es lo último",
+      "text": "En el abdomen se cambia el orden del examen. Primero la inspección: forma, piel, ombligo, latidos. Después la auscultación, antes de tocar, porque si palpo o percuto provoco ruidos intestinales y ya no sé cuáles son espontáneos. Los ruidos hidroaéreos normales son de cinco a treinta por minuto. Después la percusión, que distingue el aire, timpánico, de lo macizo, mate. Y al final la palpación, que es la que más información da."
+    },
+    {
+      "title": "Lo que dicen los ruidos",
+      "text": "Los ruidos te cuentan qué hace el intestino. Si hay un obstáculo, el intestino lucha para vencerlo: los ruidos se vuelven intensos, metálicos, acompañados de cólico. Es el íleo mecánico, la obstrucción. Si el peritoneo está inflamado, el intestino se paraliza y deja de sonar: el silencio abdominal del íleo paralítico es una señal de alarma de peritonitis."
+    },
+    {
+      "title": "Cuando el peritoneo se irrita",
+      "text": "Cuando una víscera se inflama, irrita el peritoneo que la cubre. Al presionar con un dedo el punto donde se proyecta en la pared, duele: McBurney para el apéndice, Murphy para la vesícula. La pared se contrae para proteger esa zona: es la defensa. Y al soltar bruscamente la presión, el peritoneo se mueve y duele más: es el signo de Blumberg. Si toda la cavidad está inflamada, el abdomen queda duro, en tabla: es la peritonitis."
+    },
+    {
+      "title": "Hígado y bazo bajan con la inspiración",
+      "text": "El hígado y el bazo están debajo de las costillas, y el diafragma los empuja hacia abajo en cada inspiración: por eso se palpan pidiendo al paciente que inspire hondo y esperando que el borde llegue a los dedos. El hígado se mide sumando dos datos: el límite superior por percusión, en el quinto espacio, y el borde inferior por palpación, que no pasa más de un centímetro el reborde. Entre los dos hay de nueve a doce centímetros. El bazo normal no se palpa. Cuando crece lo hace hacia abajo y adelante, hacia la fosa ilíaca derecha, así que la palpación empieza abajo. Se ayuda con la percusión del punto de Castell y la posición de Schuster."
+    }
+  ]
+}

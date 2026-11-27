@@ -1,0 +1,42 @@
+{
+  "src": "media/dal-01/clase.mp4",
+  "poster": "media/dal-01/clase.jpg",
+  "vtt": "media/dal-01/clase.vtt",
+  "duration": "2:47",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Disfagia"
+    },
+    {
+      "t": 48,
+      "label": "Vómitos"
+    },
+    {
+      "t": 83,
+      "label": "Úlcera"
+    },
+    {
+      "t": 116,
+      "label": "Hemorragia"
+    }
+  ],
+  "script": [
+    {
+      "title": "Disfagia: ¿dónde se traba?",
+      "text": "Tragar tiene dos tiempos. Primero la transferencia, de la boca y la faringe al esófago. Si eso falla, el problema aparece apenas empieza a tragar, y el alimento se va hacia la vía aérea: tos, atragantamiento, neumonía aspirativa. Es la disfagia orofaríngea, de causa neuromuscular, como un ACV o un Parkinson. Después viene el transporte por el esófago. Si falla, el bolo se traba en el pecho. Si hay un obstáculo, como un tumor, primero se traban los sólidos y cada vez más: es obstructiva y progresiva. Si falla el motor, como en la acalasia, cuestan los sólidos y los líquidos desde el principio."
+    },
+    {
+      "title": "El vómito dice hasta dónde llegó la comida",
+      "text": "El contenido del vómito cuenta hasta dónde llegó la comida. Si sale sin digerir, se quedó en el esófago. Si sale la comida de varias horas antes, el estómago no se vació: el píloro está obstruido, casi siempre por una úlcera. Si es bilioso, el contenido ya había pasado el píloro. Y si es fecaloide, hay una obstrucción intestinal baja. Ojo: un vómito matinal, en chorro y sin náuseas no viene del abdomen; pensá en hipertensión endocraneana."
+    },
+    {
+      "title": "Úlcera: agresión contra defensa",
+      "text": "La mucosa del estómago vive en ácido y se defiende con una barrera: moco, bicarbonato, buen flujo sanguíneo y prostaglandinas. La úlcera aparece cuando la agresión le gana a la defensa. El Helicobacter pylori inflama el antro y aumenta el ácido; los antiinflamatorios bloquean las prostaglandinas que protegen la mucosa. En la úlcera duodenal el dolor es como hambre dolorosa y calma al comer. Y sus complicaciones son tres: la hemorragia, la perforación y la estenosis del píloro."
+    },
+    {
+      "title": "Hemorragia: primero cuánto, después dónde",
+      "text": "Frente a una hemorragia digestiva, lo primero es saber cuánto sangró, y eso lo dicen los signos vitales: frecuencia, presión, ortostatismo, diuresis y estado mental. El hematocrito no sirve al principio, porque tarda horas en bajar. Después, dónde: el ángulo de Treitz divide la hemorragia alta de la baja. La sangre que sale por arriba, o que recorre todo el intestino y las bacterias la vuelven negra, la melena, indica un sangrado alto: úlcera, gastritis, várices. La sangre roja por el ano, la hematoquecia, indica uno bajo: divertículos y angiodisplasia en los mayores, hemorroides y fisuras en los jóvenes."
+    }
+  ]
+}

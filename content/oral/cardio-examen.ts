@@ -259,7 +259,7 @@ export const apunte: ApunteUnidad = {
         { q: '¿Qué es el signo de Rivero-Carvallo?', a: 'Los soplos de las válvulas derechas aumentan en la inspiración (más retorno al corazón derecho).' },
         { q: '¿Desde qué intensidad hay frémito?', a: 'Desde 4/6.' },
       ],
-      fuentes: 'Apunte de Ortega, pp. 155–162 · Instituto Merlín, «Soplos» y «Valvulopatías» · Argente-Álvarez, cap. 29-3.',
+      fuentes: 'Apunte de Ortega, pp. 155–162 · Instituto Merlín, «Soplos» y «Valvulopatías» · Argente-Álvarez, cap. 29-5.',
     },
   ],
   noOlvidar: [

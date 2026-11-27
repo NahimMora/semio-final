@@ -28,6 +28,16 @@ import { clase as planCar04 } from '../../content/chapters/car-04/clase';
 import tiemposCar04 from '../../content/chapters/car-04/clase-tiempos.json';
 import { clase as planCom01 } from '../../content/chapters/com-01/clase';
 import tiemposCom01 from '../../content/chapters/com-01/clase-tiempos.json';
+import { clase as planDex01 } from '../../content/chapters/dex-01/clase';
+import tiemposDex01 from '../../content/chapters/dex-01/clase-tiempos.json';
+import { clase as planDal01 } from '../../content/chapters/dal-01/clase';
+import tiemposDal01 from '../../content/chapters/dal-01/clase-tiempos.json';
+import { clase as planAba01 } from '../../content/chapters/aba-01/clase';
+import tiemposAba01 from '../../content/chapters/aba-01/clase-tiempos.json';
+import { clase as planCon01 } from '../../content/chapters/con-01/clase';
+import tiemposCon01 from '../../content/chapters/con-01/clase-tiempos.json';
+import { clase as planHig01 } from '../../content/chapters/hig-01/clase';
+import tiemposHig01 from '../../content/chapters/hig-01/clase-tiempos.json';
 import { clase as planHc01 } from '../../content/chapters/hc-01/clase';
 import tiemposHc01 from '../../content/chapters/hc-01/clase-tiempos.json';
 import { clase as planDig02 } from '../../content/chapters/dig-02/clase';
@@ -251,6 +261,11 @@ interface CapClase {
 const PLAN_PARCIAL = { fisio: { id: 'fisio', secciones: [], diapos: [] }, teoria: MAZO_PARCIAL } as unknown as PlanClase;
 
 const CLASES: CapClase[] = [
+  { id: 'hig-01-clase', titulo: "Ictericia, cirrosis, hipertensión portal y ascitis", plan: planHig01, tiempos: tiemposHig01 as TiemposClase },
+  { id: 'con-01-clase', titulo: "Constipación", plan: planCon01, tiempos: tiemposCon01 as TiemposClase },
+  { id: 'aba-01-clase', titulo: "Abdomen agudo y peritonitis", plan: planAba01, tiempos: tiemposAba01 as TiemposClase },
+  { id: 'dal-01-clase', titulo: "Digestivo alto y hemorragia digestiva", plan: planDal01, tiempos: tiemposDal01 as TiemposClase },
+  { id: 'dex-01-clase', titulo: "Examen físico del abdomen", plan: planDex01, tiempos: tiemposDex01 as TiemposClase },
   { id: 'com-01-clase', titulo: "Síndrome anémico", plan: planCom01, tiempos: tiemposCom01 as TiemposClase },
   { id: 'car-04-clase', titulo: "Hipertensión arterial e insuficiencia cardíaca", plan: planCar04, tiempos: tiemposCar04 as TiemposClase },
   { id: 'car-03-clase', titulo: "Valvulopatías", plan: planCar03, tiempos: tiemposCar03 as TiemposClase },

@@ -7,6 +7,11 @@ import type { PlanClase } from '@/clase/tipos';
 
 /** Clases visuales nuevas (solo «Para entenderlo», sin capítulo largo). */
 const CLASES_NUEVAS: Record<string, { titulo: string; cargar: () => Promise<{ clase: PlanClase }> }> = {
+  'hig-01': { titulo: "Ictericia, cirrosis, hipertensión portal y ascitis", cargar: () => import('@content/chapters/hig-01/clase') },
+  'con-01': { titulo: "Constipación", cargar: () => import('@content/chapters/con-01/clase') },
+  'aba-01': { titulo: "Abdomen agudo y peritonitis", cargar: () => import('@content/chapters/aba-01/clase') },
+  'dal-01': { titulo: "Digestivo alto y hemorragia digestiva", cargar: () => import('@content/chapters/dal-01/clase') },
+  'dex-01': { titulo: "Examen físico del abdomen", cargar: () => import('@content/chapters/dex-01/clase') },
   'com-01': { titulo: "Síndrome anémico", cargar: () => import('@content/chapters/com-01/clase') },
   'car-04': { titulo: "Hipertensión arterial e insuficiencia cardíaca", cargar: () => import('@content/chapters/car-04/clase') },
   'car-03': { titulo: "Valvulopatías", cargar: () => import('@content/chapters/car-03/clase') },
@@ -29,6 +34,11 @@ export async function cargarClase(id: string): Promise<{ id: string; title: stri
 
 /** Apuntes para el oral escritos con el método nuevo. Agregar acá cada unidad terminada. */
 const CARGAR: Record<string, () => Promise<{ apunte: ApunteUnidad }>> = {
+  higado: () => import('@content/oral/higado'),
+  constipacion: () => import('@content/oral/constipacion'),
+  'abdomen-agudo': () => import('@content/oral/abdomen-agudo'),
+  'dig-alto': () => import('@content/oral/dig-alto'),
+  'dig-examen': () => import('@content/oral/dig-examen'),
   'anemia': () => import('@content/oral/anemia'),
   'hta-ic': () => import('@content/oral/hta-ic'),
   valvulopatias: () => import('@content/oral/valvulopatias'),

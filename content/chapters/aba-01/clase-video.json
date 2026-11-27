@@ -1,0 +1,34 @@
+{
+  "src": "media/aba-01/clase.mp4",
+  "poster": "media/aba-01/clase.jpg",
+  "vtt": "media/aba-01/clase.vtt",
+  "duration": "2:11",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Tipos de dolor"
+    },
+    {
+      "t": 41,
+      "label": "Abdomen agudo"
+    },
+    {
+      "t": 86,
+      "label": "Peritonitis"
+    }
+  ],
+  "script": [
+    {
+      "title": "Visceral o somático",
+      "text": "El dolor abdominal tiene dos orígenes. El visceral nace en el órgano, cuando se distiende, se isquemia o se inflama. Llega por fibras lentas, es difuso, en la línea media, y el paciente está inquieto, con náuseas y sudor. El somático nace en el peritoneo parietal cuando se irrita: es preciso, localizado, y el paciente se queda quieto porque moverse duele. La apendicitis tiene los dos: empieza alrededor del ombligo, cuando el apéndice se distiende, y después migra a la fosa ilíaca derecha, cuando se inflama el peritoneo de al lado."
+    },
+    {
+      "title": "Los cinco abdómenes agudos",
+      "text": "Hay cinco abdómenes agudos, y cada uno tiene una clave. El inflamatorio, como la apendicitis o la colecistitis, da dolor localizado, fiebre y Blumberg. El obstructivo, por bridas o hernias, da dolor cólico, distensión, ruidos de lucha y el paciente deja de eliminar gases. El perforativo, como una úlcera perforada, da un abdomen en tabla, silencioso, y el aire libre borra la matidez del hígado: el signo de Jobert. El hemorrágico, como un embarazo ectópico roto, se reconoce por la hipovolemia. Y el vascular, la isquemia mesentérica, es traicionero: el dolor es enorme y el abdomen, al principio, está blando."
+    },
+    {
+      "title": "Peritonitis: el peritoneo inflamado no se quiere mover",
+      "text": "El peritoneo es estéril. Cuando una víscera se perfora o se inflama, llegan gérmenes. El peritoneo se inflama, produce exudado, y el intestino se paraliza. Por eso el abdomen queda silencioso, la pared se contrae para proteger, hasta ponerse en tabla, y duele al soltar la presión: el signo de Blumberg. La peritonitis secundaria, la más frecuente, viene de una perforación o una víscera inflamada y es quirúrgica. La primaria, o espontánea, aparece sin foco en el cirrótico con ascitis, y se trata con antibióticos."
+    }
+  ]
+}

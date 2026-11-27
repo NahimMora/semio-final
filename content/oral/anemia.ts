@@ -3,7 +3,7 @@ import type { ApunteUnidad } from './tipos';
 /*
  * Síndrome anémico e índices hematimétricos — apunte para el oral.
  * Base: apunte de Ortega («Síndrome anémico» pp. 290–296), contrastado con Argente
- * (cap. 61-1 «Hemograma» y cap. 76 «Uso e interpretación de los exámenes de laboratorio»).
+ * (cap. 60-1 «Síndrome anémico», 61-1 «Hemograma» y parte XVIII, laboratorio).
  * Merlín no tiene una clase de anemia.
  */
 export const apunte: ApunteUnidad = {
@@ -89,7 +89,7 @@ export const apunte: ApunteUnidad = {
         { q: '¿Cuál es el mejor parámetro para la ferropenia?', a: 'La ferritina sérica, baja.' },
         { q: '¿Cómo diferenciás ferropénica de trastornos crónicos?', a: 'Ferritina baja y transferrina alta en la ferropénica; ferritina normal o alta y transferrina baja en la de trastornos crónicos.' },
       ],
-      fuentes: 'Apunte de Ortega, pp. 290–294 · Argente-Álvarez, cap. 61-1 y 76.',
+      fuentes: 'Apunte de Ortega, pp. 290–294 · Argente-Álvarez, cap. 60-1 y 61-1 (hemograma).',
     },
   ],
   noOlvidar: [

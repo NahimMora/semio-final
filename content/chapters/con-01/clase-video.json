@@ -1,0 +1,26 @@
+{
+  "src": "media/con-01/clase.mp4",
+  "poster": "media/con-01/clase.jpg",
+  "vtt": "media/con-01/clase.vtt",
+  "duration": "0:59",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Mecanismo"
+    },
+    {
+      "t": 31,
+      "label": "Causas y alarma"
+    }
+  ],
+  "script": [
+    {
+      "title": "Tres pasos para evacuar",
+      "text": "Para evacuar normalmente hacen falta tres cosas: una materia fecal de buena consistencia, que depende de la fibra y el agua; un colon que la empuje; y un recto y un piso pelviano que la expulsen. Si falla cualquiera de los tres, aparece la constipación. Y cuanto más tiempo pasa la materia fecal en el colon, más agua le absorbe: sale dura, en bolitas, los tipos uno y dos de la escala de Bristol."
+    },
+    {
+      "title": "Lo que no se puede pasar por alto",
+      "text": "La mayoría de las constipaciones son por una dieta pobre en fibra, por fármacos como los opioides, por hipotiroidismo o funcionales. Pero hay que buscar siempre los signos de alarma: más de cincuenta años, pérdida de peso, anemia o sangre. Con cualquiera de ellos se pide una colonoscopia, para no pasar por alto un cáncer de colon."
+    }
+  ]
+}
