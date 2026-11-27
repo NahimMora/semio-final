@@ -1,1 +1,81 @@
-{"fps":24,"total":100,"portada":96,"cierre":120,"voz":"es-AR-TomasNeural","diapos":[]}
+{
+ "fps": 24,
+ "total": 3642,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "c1-isquemia",
+   "inicio": 96,
+   "frames": 1004,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 205
+    },
+    {
+     "inicio": 301,
+     "frames": 278
+    },
+    {
+     "inicio": 579,
+     "frames": 219
+    },
+    {
+     "inicio": 798,
+     "frames": 302
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c1-tipos",
+   "inicio": 1100,
+   "frames": 587,
+   "beats": [
+    {
+     "inicio": 1100,
+     "frames": 587
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c1-disnea",
+   "inicio": 1687,
+   "frames": 840,
+   "beats": [
+    {
+     "inicio": 1687,
+     "frames": 622
+    },
+    {
+     "inicio": 2309,
+     "frames": 218
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c1-sincope",
+   "inicio": 2527,
+   "frames": 995,
+   "beats": [
+    {
+     "inicio": 2527,
+     "frames": 278
+    },
+    {
+     "inicio": 2805,
+     "frames": 201
+    },
+    {
+     "inicio": 3006,
+     "frames": 516
+    }
+   ]
+  }
+ ]
+}

@@ -20,6 +20,10 @@ import { clase as planRes02 } from '../../content/chapters/res-02/clase';
 import tiemposRes02 from '../../content/chapters/res-02/clase-tiempos.json';
 import { clase as planCar01 } from '../../content/chapters/car-01/clase';
 import tiemposCar01 from '../../content/chapters/car-01/clase-tiempos.json';
+import { clase as planCar02 } from '../../content/chapters/car-02/clase';
+import tiemposCar02 from '../../content/chapters/car-02/clase-tiempos.json';
+import { clase as planCar03 } from '../../content/chapters/car-03/clase';
+import tiemposCar03 from '../../content/chapters/car-03/clase-tiempos.json';
 import { clase as planHc01 } from '../../content/chapters/hc-01/clase';
 import tiemposHc01 from '../../content/chapters/hc-01/clase-tiempos.json';
 import { clase as planDig02 } from '../../content/chapters/dig-02/clase';
@@ -243,6 +247,8 @@ interface CapClase {
 const PLAN_PARCIAL = { fisio: { id: 'fisio', secciones: [], diapos: [] }, teoria: MAZO_PARCIAL } as unknown as PlanClase;
 
 const CLASES: CapClase[] = [
+  { id: 'car-03-clase', titulo: "Valvulopatías", plan: planCar03, tiempos: tiemposCar03 as TiemposClase },
+  { id: 'car-02-clase', titulo: "Examen cardiovascular: pulsos, ruidos y soplos", plan: planCar02, tiempos: tiemposCar02 as TiemposClase },
   { id: 'car-01-clase', titulo: "Cardiovascular: motivos de consulta", plan: planCar01, tiempos: tiemposCar01 as TiemposClase },
   { id: 'res-02-clase', titulo: "Síndromes respiratorios", plan: planRes02, tiempos: tiemposRes02 as TiemposClase },
   { id: 'res-01-clase', titulo: "Respiratorio: motivos de consulta y examen del tórax", plan: planRes01, tiempos: tiemposRes01 as TiemposClase },

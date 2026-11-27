@@ -7,6 +7,8 @@ import type { PlanClase } from '@/clase/tipos';
 
 /** Clases visuales nuevas (solo «Para entenderlo», sin capítulo largo). */
 const CLASES_NUEVAS: Record<string, { titulo: string; cargar: () => Promise<{ clase: PlanClase }> }> = {
+  'car-03': { titulo: "Valvulopatías", cargar: () => import('@content/chapters/car-03/clase') },
+  'car-02': { titulo: "Examen cardiovascular: pulsos, ruidos y soplos", cargar: () => import('@content/chapters/car-02/clase') },
   'car-01': { titulo: "Cardiovascular: motivos de consulta", cargar: () => import('@content/chapters/car-01/clase') },
   'res-02': { titulo: "Síndromes respiratorios", cargar: () => import('@content/chapters/res-02/clase') },
   'res-01': { titulo: "Respiratorio: motivos de consulta y examen del tórax", cargar: () => import('@content/chapters/res-01/clase') },
@@ -25,6 +27,7 @@ export async function cargarClase(id: string): Promise<{ id: string; title: stri
 
 /** Apuntes para el oral escritos con el método nuevo. Agregar acá cada unidad terminada. */
 const CARGAR: Record<string, () => Promise<{ apunte: ApunteUnidad }>> = {
+  valvulopatias: () => import('@content/oral/valvulopatias'),
   'cardio-examen': () => import('@content/oral/cardio-examen'),
   'cardio-mc': () => import('@content/oral/cardio-mc'),
   'resp-sindromes': () => import('@content/oral/resp-sindromes'),

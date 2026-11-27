@@ -1,1 +1,38 @@
-{}
+{
+  "src": "media/car-01/clase.mp4",
+  "poster": "media/car-01/clase.jpg",
+  "vtt": "media/car-01/clase.vtt",
+  "duration": "2:32",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Ángor"
+    },
+    {
+      "t": 70,
+      "label": "Disnea cardíaca"
+    },
+    {
+      "t": 105,
+      "label": "Síncope"
+    }
+  ],
+  "script": [
+    {
+      "title": "Ángor: oferta y demanda de oxígeno",
+      "text": "El ángor es un problema de oferta y demanda. Las coronarias llevan el oxígeno que el músculo cardíaco necesita. Si una placa de aterosclerosis estrecha la arteria, en reposo todavía alcanza, pero cuando el corazón trabaja más, con el esfuerzo, la emoción o el frío, ya no. El músculo queda en isquemia, y aparece el dolor: opresivo, detrás del esternón, irradiado al brazo izquierdo o la mandíbula. Por eso cede con el reposo y la nitroglicerina, que bajan el consumo. Si el dolor dura más de treinta minutos y no cede, el músculo ya se está necrosando: es un infarto."
+    },
+    {
+      "title": "Estable, inestable e infarto",
+      "text": "Según cómo se comporta, la angina es estable si aparece siempre con el mismo esfuerzo y no cambió en los últimos tres meses; es inestable si es de reciente comienzo, si aparece con esfuerzos cada vez menores o en reposo. Y si dura más de treinta minutos y la nitroglicerina no la calma, es un infarto. La inestable es la que más internaciones genera, porque puede terminar en infarto."
+    },
+    {
+      "title": "La disnea del corazón izquierdo",
+      "text": "La disnea cardíaca sigue una progresión. Cuando el ventrículo izquierdo falla, la sangre se acumula en el pulmón. Primero falta el aire con el esfuerzo, y con esfuerzos cada vez menores; después al acostarse, que es la ortopnea; después de noche, de golpe, despertándolo: la disnea paroxística nocturna; y la forma extrema es el edema agudo de pulmón, con espuma rosada. Cuando esa disnea nocturna viene con sibilancias, porque la congestión también hincha la pared de los bronquios, se llama asma cardíaca."
+    },
+    {
+      "title": "Síncope: el cerebro se queda sin flujo",
+      "text": "El síncope es una pérdida breve de la conciencia. Empieza porque cae la presión arterial, ya sea porque baja el gasto del corazón o porque se dilatan los vasos. El cerebro se queda sin flujo de golpe, en forma global, y el paciente pierde la conciencia y el tono: se cae. Al quedar acostado, la sangre vuelve a llegar al cerebro y se recupera solo, rápido y por completo. El más frecuente es el vasovagal, con emoción o dolor y con aviso previo. El que preocupa es el cardíaco: el que aparece con el esfuerzo, como en la estenosis aórtica, o el que llega sin aviso, por una arritmia."
+    }
+  ]
+}
