@@ -10,6 +10,8 @@ import { escenas as dig01 } from '../../content/chapters/dig-01/escenas';
 import tiempos01 from '../../content/chapters/dig-01/tiempos.json';
 import { clase as planSig01 } from '../../content/chapters/sig-01/clase';
 import tiemposSig01 from '../../content/chapters/sig-01/clase-tiempos.json';
+import { clase as planGen01 } from '../../content/chapters/gen-01/clase';
+import tiemposGen01 from '../../content/chapters/gen-01/clase-tiempos.json';
 import { clase as planHc01 } from '../../content/chapters/hc-01/clase';
 import tiemposHc01 from '../../content/chapters/hc-01/clase-tiempos.json';
 import { clase as planDig02 } from '../../content/chapters/dig-02/clase';
@@ -233,6 +235,7 @@ interface CapClase {
 const PLAN_PARCIAL = { fisio: { id: 'fisio', secciones: [], diapos: [] }, teoria: MAZO_PARCIAL } as unknown as PlanClase;
 
 const CLASES: CapClase[] = [
+  { id: 'gen-01-clase', titulo: "Examen general y signos vitales", plan: planGen01, tiempos: tiemposGen01 as TiemposClase },
   { id: 'sig-01-clase', titulo: 'Signos y síntomas generales', plan: planSig01, tiempos: tiemposSig01 as TiemposClase },
   { id: 'hc-01-clase', titulo: 'Historia clínica', plan: planHc01, tiempos: tiemposHc01 as TiemposClase },
   { id: 'parcial-diapos', titulo: 'Parcial del lunes: lo del repaso', plan: PLAN_PARCIAL, tiempos: tiemposParcial as TiemposClase },

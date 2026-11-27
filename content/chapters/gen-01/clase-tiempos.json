@@ -1,0 +1,125 @@
+{
+ "fps": 24,
+ "total": 5569,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "g-que-son",
+   "inicio": 96,
+   "frames": 816,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 283
+    },
+    {
+     "inicio": 379,
+     "frames": 533
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "g-pa",
+   "inicio": 912,
+   "frames": 760,
+   "beats": [
+    {
+     "inicio": 912,
+     "frames": 306
+    },
+    {
+     "inicio": 1218,
+     "frames": 454
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "g-korotkoff",
+   "inicio": 1672,
+   "frames": 859,
+   "beats": [
+    {
+     "inicio": 1672,
+     "frames": 185
+    },
+    {
+     "inicio": 1857,
+     "frames": 244
+    },
+    {
+     "inicio": 2101,
+     "frames": 185
+    },
+    {
+     "inicio": 2286,
+     "frames": 245
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "g-tecnica",
+   "inicio": 2531,
+   "frames": 1229,
+   "beats": [
+    {
+     "inicio": 2531,
+     "frames": 277
+    },
+    {
+     "inicio": 2808,
+     "frames": 177
+    },
+    {
+     "inicio": 2985,
+     "frames": 291
+    },
+    {
+     "inicio": 3276,
+     "frames": 250
+    },
+    {
+     "inicio": 3526,
+     "frames": 234
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "g-pulso-fr",
+   "inicio": 3760,
+   "frames": 874,
+   "beats": [
+    {
+     "inicio": 3760,
+     "frames": 367
+    },
+    {
+     "inicio": 4127,
+     "frames": 507
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "g-general",
+   "inicio": 4634,
+   "frames": 815,
+   "beats": [
+    {
+     "inicio": 4634,
+     "frames": 310
+    },
+    {
+     "inicio": 4944,
+     "frames": 505
+    }
+   ]
+  }
+ ]
+}

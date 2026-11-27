@@ -409,7 +409,7 @@ export function BolilleroNuevo() {
 
 /* ═════════ APUNTES ═════════ */
 /** Sistemas con apunte PDF en el formato nuevo (public/pdf/apunte-<id>.pdf). */
-export const PDF_NUEVOS: string[] = ['hc', 'signos'];
+export const PDF_NUEVOS: string[] = ['hc', 'signos', 'vitales', 'cyc'];
 
 export function ApuntesNuevo() {
   const base = import.meta.env.BASE_URL;
