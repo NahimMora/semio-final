@@ -1,1 +1,42 @@
-{}
+{
+  "src": "media/car-02/clase.mp4",
+  "poster": "media/car-02/clase.jpg",
+  "vtt": "media/car-02/clase.vtt",
+  "duration": "3:19",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Ruidos"
+    },
+    {
+      "t": 71,
+      "label": "Soplos"
+    },
+    {
+      "t": 114,
+      "label": "Pulsos"
+    }
+  ],
+  "script": [
+    {
+      "title": "Los ruidos son válvulas que se cierran",
+      "text": "Para entender la auscultación, pensá que cada ruido es una válvula que se cierra. El primer ruido es el cierre de la mitral y la tricúspide, y marca el comienzo de la sístole. Se oye mejor en la punta y coincide con el pulso carotídeo. Después viene el pequeño silencio: el ventrículo está eyectando. El segundo ruido es el cierre de la aórtica y la pulmonar, y marca el comienzo de la diástole; se oye mejor en la base. Y el gran silencio es la diástole, mientras el ventrículo se llena."
+    },
+    {
+      "title": "R3 y R4: el ventrículo que se llena mal",
+      "text": "Hay dos ruidos que aparecen en la diástole cuando el ventrículo se llena mal. El tercero aparece al principio, durante el llenado rápido: si un ventrículo dilatado recibe mucho volumen, vibra. Es normal en chicos y jóvenes, y patológico en la insuficiencia cardíaca. El cuarto aparece al final, cuando la aurícula se contrae contra un ventrículo rígido que no se deja llenar, como en la hipertensión o la hipertrofia. Como depende de la contracción auricular, en la fibrilación auricular no existe."
+    },
+    {
+      "title": "Soplos: ¿en qué momento?",
+      "text": "Un soplo es sangre turbulenta, y el momento en que aparece te dice qué válvula falla. En la sístole el ventrículo empuja la sangre: si sale por una aórtica estrecha, es la estenosis aórtica, que se irradia al cuello; si vuelve por una mitral que no cierra, es la insuficiencia mitral, que se irradia a la axila. En la diástole el ventrículo se llena: si entra por una mitral estrecha, es la estenosis mitral, un rolido grave; si vuelve por una aórtica que no cierra, es la insuficiencia aórtica, un soplo aspirativo. Una regla de oro: todo soplo diastólico es patológico. Los soplos inocentes son sistólicos, suaves y sin frémito."
+    },
+    {
+      "title": "El pulso dibuja la válvula aórtica",
+      "text": "El pulso es la onda que genera cada sístole, y su forma dibuja lo que pasa en la válvula aórtica. Si la válvula está estrecha, la onda sale por un agujero chico: el pulso es pequeño y tarda en subir, parvus et tardus. Si la válvula no cierra, el ventrículo eyecta mucho volumen y la aorta se vacía hacia atrás: el pulso es amplio y cae rápido, el saltón de Corrigan. Y en el taponamiento, en cada inspiración se llena menos el ventrículo izquierdo: la presión cae más de diez milímetros, es el pulso paradójico."
+    },
+    {
+      "title": "El cuello muestra la aurícula derecha",
+      "text": "Las yugulares no tienen válvulas y están pegadas a la aurícula derecha, así que el cuello muestra lo que pasa en el corazón derecho. Con el paciente a treinta o cuarenta y cinco grados, la altura de la columna es la presión venosa. La onda a es la contracción de la aurícula: por eso desaparece en la fibrilación auricular, y se vuelve una onda en cañón cuando la aurícula se contrae contra una tricúspide cerrada, en el bloqueo completo. La onda v gigante aparece cuando la sangre vuelve por una tricúspide insuficiente. Y si al comprimir el hígado la yugular se llena y se queda llena, el corazón derecho no puede con el volumen: es el reflujo hepatoyugular de la insuficiencia derecha."
+    }
+  ]
+}

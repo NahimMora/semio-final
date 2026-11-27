@@ -1,1 +1,38 @@
-{}
+{
+  "src": "media/car-03/clase.mp4",
+  "poster": "media/car-03/clase.jpg",
+  "vtt": "media/car-03/clase.vtt",
+  "duration": "2:55",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "La regla"
+    },
+    {
+      "t": 35,
+      "label": "Mitral"
+    },
+    {
+      "t": 80,
+      "label": "Aórtica"
+    }
+  ],
+  "script": [
+    {
+      "title": "Estrecha o no cierra",
+      "text": "Las cuatro valvulopatías del oral salen de una sola idea. Una válvula puede estar estrecha, y entonces no abre bien: eso es una estenosis. O puede no cerrar, y la sangre vuelve hacia atrás: eso es una insuficiencia. La estenosis se oye cuando la válvula debería estar abierta, y la insuficiencia cuando debería estar cerrada. Y acordate: la mitral está abierta en la diástole, y la aórtica en la sístole. Con eso deducís el momento de cada soplo."
+    },
+    {
+      "title": "Estenosis mitral: todo vuelve al pulmón",
+      "text": "En la estenosis mitral, casi siempre por fiebre reumática, la aurícula izquierda no logra vaciarse en el ventrículo. Su presión sube y se transmite hacia atrás, al pulmón: congestión, hipertensión pulmonar y al final falla del ventrículo derecho. De ahí la tríada: disnea, hemoptisis por la rotura de venas bronquiales, y palpitaciones, porque la aurícula dilatada fibrila y forma trombos que embolizan. Al auscultar, las valvas cierran de golpe y el primer ruido es intenso; al abrirse rígidas dan el chasquido de apertura, y el paso de sangre por el orificio estrecho da un rolido diastólico en la punta, que se busca con la campana en decúbito lateral izquierdo."
+    },
+    {
+      "title": "Estenosis aórtica: el ventrículo que empuja contra una pared",
+      "text": "En la estenosis aórtica, la valvulopatía más frecuente, el ventrículo izquierdo tiene que empujar contra una válvula estrecha. Responde engrosándose: hipertrofia concéntrica. Ese músculo grueso consume más oxígeno del que le llega, y aparece el ángor. Con el esfuerzo el gasto no puede aumentar, cae el flujo cerebral y aparece el síncope. Y cuando el ventrículo rígido falla, la disnea. Cuando aparecen los síntomas, la sobrevida es de cinco, tres y dos años respectivamente. El pulso sale pequeño y lento, parvus et tardus, y el soplo es sistólico, eyectivo y rudo en el foco aórtico, irradiado al cuello."
+    },
+    {
+      "title": "Insuficiencia aórtica: la presión diferencial lo explica todo",
+      "text": "En la insuficiencia aórtica, la válvula no cierra y en cada diástole la sangre vuelve de la aorta al ventrículo. El ventrículo recibe ese volumen extra, se dilata y eyecta muchísima sangre: la presión sistólica sube y la diastólica cae. La presión diferencial es amplia. Esa onda enorme explica los signos periféricos: el pulso saltón de Corrigan, la cabeza que se mueve con cada latido, que es el signo de Musset, el pulso capilar de Quincke, el latido de la úvula. Y el soplo es diastólico, aspirativo y decreciente, en el tercer y cuarto espacio paraesternal izquierdo, mejor con el paciente sentado e inclinado hacia adelante."
+    }
+  ]
+}

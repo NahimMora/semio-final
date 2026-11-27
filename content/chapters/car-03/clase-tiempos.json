@@ -1,1 +1,93 @@
-{"fps":24,"total":100,"portada":96,"cierre":120,"voz":"es-AR-TomasNeural","diapos":[]}
+{
+ "fps": 24,
+ "total": 4188,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "c3-regla",
+   "inicio": 96,
+   "frames": 767,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 379
+    },
+    {
+     "inicio": 475,
+     "frames": 388
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c3-em",
+   "inicio": 863,
+   "frames": 1076,
+   "beats": [
+    {
+     "inicio": 863,
+     "frames": 202
+    },
+    {
+     "inicio": 1065,
+     "frames": 224
+    },
+    {
+     "inicio": 1289,
+     "frames": 264
+    },
+    {
+     "inicio": 1553,
+     "frames": 386
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c3-ea",
+   "inicio": 1939,
+   "frames": 1071,
+   "beats": [
+    {
+     "inicio": 1939,
+     "frames": 300
+    },
+    {
+     "inicio": 2239,
+     "frames": 528
+    },
+    {
+     "inicio": 2767,
+     "frames": 243
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c3-ia",
+   "inicio": 3010,
+   "frames": 1058,
+   "beats": [
+    {
+     "inicio": 3010,
+     "frames": 193
+    },
+    {
+     "inicio": 3203,
+     "frames": 287
+    },
+    {
+     "inicio": 3490,
+     "frames": 314
+    },
+    {
+     "inicio": 3804,
+     "frames": 264
+    }
+   ]
+  }
+ ]
+}

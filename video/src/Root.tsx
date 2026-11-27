@@ -24,6 +24,10 @@ import { clase as planCar02 } from '../../content/chapters/car-02/clase';
 import tiemposCar02 from '../../content/chapters/car-02/clase-tiempos.json';
 import { clase as planCar03 } from '../../content/chapters/car-03/clase';
 import tiemposCar03 from '../../content/chapters/car-03/clase-tiempos.json';
+import { clase as planCar04 } from '../../content/chapters/car-04/clase';
+import tiemposCar04 from '../../content/chapters/car-04/clase-tiempos.json';
+import { clase as planCom01 } from '../../content/chapters/com-01/clase';
+import tiemposCom01 from '../../content/chapters/com-01/clase-tiempos.json';
 import { clase as planHc01 } from '../../content/chapters/hc-01/clase';
 import tiemposHc01 from '../../content/chapters/hc-01/clase-tiempos.json';
 import { clase as planDig02 } from '../../content/chapters/dig-02/clase';
@@ -247,6 +251,8 @@ interface CapClase {
 const PLAN_PARCIAL = { fisio: { id: 'fisio', secciones: [], diapos: [] }, teoria: MAZO_PARCIAL } as unknown as PlanClase;
 
 const CLASES: CapClase[] = [
+  { id: 'com-01-clase', titulo: "Síndrome anémico", plan: planCom01, tiempos: tiemposCom01 as TiemposClase },
+  { id: 'car-04-clase', titulo: "Hipertensión arterial e insuficiencia cardíaca", plan: planCar04, tiempos: tiemposCar04 as TiemposClase },
   { id: 'car-03-clase', titulo: "Valvulopatías", plan: planCar03, tiempos: tiemposCar03 as TiemposClase },
   { id: 'car-02-clase', titulo: "Examen cardiovascular: pulsos, ruidos y soplos", plan: planCar02, tiempos: tiemposCar02 as TiemposClase },
   { id: 'car-01-clase', titulo: "Cardiovascular: motivos de consulta", plan: planCar01, tiempos: tiemposCar01 as TiemposClase },

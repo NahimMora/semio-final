@@ -1,1 +1,97 @@
-{"fps":24,"total":100,"portada":96,"cierre":120,"voz":"es-AR-TomasNeural","diapos":[]}
+{
+ "fps": 24,
+ "total": 4782,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "c2-ciclo",
+   "inicio": 96,
+   "frames": 827,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 400
+    },
+    {
+     "inicio": 496,
+     "frames": 427
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c2-r3r4",
+   "inicio": 923,
+   "frames": 794,
+   "beats": [
+    {
+     "inicio": 923,
+     "frames": 445
+    },
+    {
+     "inicio": 1368,
+     "frames": 349
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c2-soplos",
+   "inicio": 1717,
+   "frames": 1024,
+   "beats": [
+    {
+     "inicio": 1717,
+     "frames": 787
+    },
+    {
+     "inicio": 2504,
+     "frames": 237
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c2-pulsos",
+   "inicio": 2741,
+   "frames": 851,
+   "beats": [
+    {
+     "inicio": 2741,
+     "frames": 366
+    },
+    {
+     "inicio": 3107,
+     "frames": 485
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c2-venoso",
+   "inicio": 3592,
+   "frames": 1070,
+   "beats": [
+    {
+     "inicio": 3592,
+     "frames": 355
+    },
+    {
+     "inicio": 3947,
+     "frames": 304
+    },
+    {
+     "inicio": 4251,
+     "frames": 159
+    },
+    {
+     "inicio": 4410,
+     "frames": 252
+    }
+   ]
+  }
+ ]
+}
