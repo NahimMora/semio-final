@@ -2,8 +2,7 @@ import type { Maneuver } from '@/types';
 
 /**
  * Maniobras de la PRIMERA ERA (cabeza y cuello, signos vitales, cardiovascular, respiratorio).
- * Fragmentos verificados contra la transcripción con tiempos del video de Argente
- * (sources/local/maneuvers/Transcripcion_con_tiempos.txt). Todo el contenido sale de lo que dice el video.
+ * Fragmentos verificados contra la transcripción con tiempos del video de Argente.
  */
 const YT = 'EC9tSepFn_U';
 const v = (start: number, end: number, label: string) => ({ youtubeId: YT, start, end, label: `Argente · ${label}` });
