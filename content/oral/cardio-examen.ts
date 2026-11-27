@@ -42,6 +42,7 @@ export const apunte: ApunteUnidad = {
           ],
         },
         { t: 'paso', titulo: 'Maniobras que ayudan', items: ['**Pachón** (decúbito lateral izquierdo): para el **foco mitral** (soplos mitrales, R3, R4).', '**Azoulay** (sentado, inclinado hacia adelante, en espiración): para la **base** (soplos aórticos).'] },
+        { t: 'maniobras', ids: ['choque-de-punta', 'dressler', 'fremitos', 'percusion-precordial', 'focos-auscultacion'] },
       ],
       oral: '«El examen cardiovascular se hace con el paciente en decúbito dorsal, levemente elevado, y el examinador a su derecha. En la inspección y palpación del precordio busco el choque de la punta, el único latido normal: está en el quinto espacio intercostal izquierdo, en o por dentro de la línea hemiclavicular, y no supera los dos centímetros; si no lo encuentro, uso el decúbito lateral izquierdo o posición de Pachón. Se desplaza hacia abajo y afuera cuando crece el ventrículo izquierdo. Busco también otros latidos y frémitos. Después ausculto los focos: aórtico en el segundo espacio derecho, pulmonar en el segundo izquierdo, accesorio aórtico en el tercero izquierdo, tricuspídeo en el xifoides y mitral en la punta, con las posiciones de Pachón para la punta y Azoulay para la base.»',
       repreguntas: [
@@ -89,6 +90,7 @@ export const apunte: ApunteUnidad = {
             ['**Dícroto**', 'Doble onda por onda dícrota exagerada', 'Fiebre (tifoidea)'],
           ],
         },
+        { t: 'maniobras', ids: ['pulso-radial-afratif', 'martillo-de-agua'] },
       ],
       oral: '«El pulso arterial es la onda de presión que genera cada sístole del ventrículo izquierdo. Se palpa con índice, medio y anular, en la radial y en los demás pulsos, comparando ambos lados. Analizo con AFRATIFS: anatomía de la arteria, frecuencia —normal 60 a 100—, ritmo, amplitud, tensión, igualdad, forma y simetría. Los pulsos patológicos más importantes son el saltón o de Corrigan, amplio y rápido, de la insuficiencia aórtica; el parvus et tardus, pequeño y lento, de la estenosis aórtica; el paradójico, que disminuye más de 10 milímetros en la inspiración, del taponamiento cardíaco; y el alternante, de la insuficiencia ventricular izquierda.»',
       repreguntas: [
@@ -129,6 +131,7 @@ export const apunte: ApunteUnidad = {
           ],
         },
         { t: 'ojo', text: 'Cómo distinguirlo del pulso **carotídeo**: el venoso **no se palpa**, tiene **dos o tres ondas** por latido, **cambia con la posición y la respiración** y **desaparece al comprimir** la base del cuello.' },
+        { t: 'maniobras', ids: ['presion-venosa-lewis', 'pulso-venoso-yugular'] },
       ],
       oral: '«El pulso venoso refleja la actividad de la aurícula derecha y se examina en la yugular interna, con el paciente a 30 a 45 grados. Evalúo la presión venosa, por la altura de la columna —normal 8 a 12 centímetros de agua—, y las ondas: la onda a, contracción auricular, que es gigante en la estenosis tricuspídea o la hipertensión pulmonar, en cañón en el bloqueo AV completo y desaparece en la fibrilación auricular; el valle x; la onda v, llenado auricular, gigante en la insuficiencia tricuspídea; y el valle y. Hago el reflujo hepatoyugular, comprimiendo el hipocondrio derecho, positivo en la insuficiencia cardíaca derecha, y busco el signo de Kussmaul, la ingurgitación inspiratoria de la pericarditis constrictiva. Se diferencia del pulso carotídeo porque no se palpa, tiene varias ondas y varía con la posición y la respiración.»',
       repreguntas: [
@@ -176,6 +179,7 @@ export const apunte: ApunteUnidad = {
             '**Amplio**: bloqueo de rama derecha. **Fijo** (no cambia con la respiración): **comunicación interauricular**. **Paradójico** (se desdobla en espiración): bloqueo de rama izquierda, estenosis aórtica.',
           ],
         },
+        { t: 'maniobras', ids: ['auscultacion-r1-r2', 'clics-chasquido'] },
       ],
       oral: '«El primer ruido es el cierre de las válvulas auriculoventriculares, mitral y tricúspide; marca el comienzo de la sístole, se oye mejor en la punta, es más grave y coincide con el pulso carotídeo. El segundo es el cierre de las sigmoideas, aórtica y pulmonar; marca el comienzo de la diástole, se oye mejor en la base y es más agudo. Entre ambos está el pequeño silencio, la sístole, y después el gran silencio, la diástole. El R1 está aumentado en la estenosis mitral y disminuido en la insuficiencia mitral; el R2 está aumentado en la hipertensión arterial o pulmonar y disminuido en la estenosis aórtica. El R2 se desdobla fisiológicamente en la inspiración; el desdoblamiento fijo sugiere una comunicación interauricular y el paradójico, un bloqueo de rama izquierda.»',
       repreguntas: [
@@ -207,6 +211,7 @@ export const apunte: ApunteUnidad = {
           ],
         },
         { t: 'ojo', text: 'El R4 depende de la **contracción auricular**: **no existe en la fibrilación auricular**. Ambos son **graves**: se oyen con la **campana** apoyada suavemente.' },
+        { t: 'maniobras', ids: ['auscultacion-r3-r4'] },
       ],
       oral: '«El tercer ruido aparece en la protodiástole, después del segundo, por el llenado ventricular rápido en un ventrículo dilatado; es normal en niños y jóvenes y en estados hipercinéticos, y patológico en la insuficiencia cardíaca y la insuficiencia mitral, como galope protodiastólico. El cuarto ruido aparece en la telediástole, antes del primero, por la contracción auricular contra un ventrículo rígido; casi siempre es patológico, en la hipertensión, la estenosis aórtica, la hipertrofia o la isquemia, y no existe en la fibrilación auricular. Ambos son graves y se oyen con la campana en la punta, en posición de Pachón.»',
       repreguntas: [
@@ -251,6 +256,7 @@ export const apunte: ApunteUnidad = {
           ],
         },
         { t: 'ojo', text: '**Soplo inocente o funcional**: **sistólico**, suave (≤ 2/6), sin frémito, sin irradiación ni otros hallazgos; en niños, embarazo, fiebre, anemia. **Todo soplo diastólico es patológico.**' },
+        { t: 'maniobras', ids: ['soplos-auscultacion', 'rivero-carvallo', 'fremitos'] },
       ],
       oral: '«Un soplo es un ruido producido por el flujo turbulento de la sangre: cuando pasa por un orificio estrecho, cuando vuelve hacia atrás por una válvula que no cierra o cuando hay hiperflujo. Se describe por su momento —sistólico, diastólico o continuo—, foco, irradiación, intensidad de 1 a 6 sobre 6, forma, timbre y variación con la respiración y la posición. Los clave son: el sistólico eyectivo de la estenosis aórtica, en el foco aórtico irradiado al cuello; el holosistólico de la insuficiencia mitral, en la punta irradiado a la axila; el diastólico de la estenosis mitral, un rolido grave con chasquido de apertura; y el diastólico aspirativo de la insuficiencia aórtica, en el foco accesorio. Los soplos inocentes son sistólicos y suaves; todo soplo diastólico es patológico.»',
       repreguntas: [

@@ -1,17 +1,21 @@
 import type { Maneuver } from '@/types';
+import { GRUPOS_ERA1, MANIOBRAS_ERA1 } from './era1';
 
 /** Video de referencia de maniobras (embebible en YouTube). Se reproduce por fragmentos; no se redistribuye. */
 export const ARGENTE_YT = 'EC9tSepFn_U';
 
 export interface ManeuverGroup {
   id: string;
-  system: 'digestivo' | 'renal' | 'neuro' | 'soma';
+  system: 'cyc' | 'cardio' | 'resp' | 'digestivo' | 'renal' | 'neuro' | 'soma';
   title: string;
   description: string;
   status: 'ready' | 'soon';
 }
 
 export const MANEUVER_SYSTEMS = [
+  { id: 'cyc', title: 'Cabeza y cuello', tone: 'lilac' },
+  { id: 'cardio', title: 'Cardiovascular', tone: 'rose' },
+  { id: 'resp', title: 'Respiratorio', tone: 'sky' },
   { id: 'digestivo', title: 'Digestivo', tone: 'rose' },
   { id: 'renal', title: 'Renal', tone: 'sky' },
   { id: 'neuro', title: 'Neurología', tone: 'lilac' },
@@ -20,6 +24,7 @@ export const MANEUVER_SYSTEMS = [
 
 /** Grupos previstos. Un grupo pasa a `ready` solo cuando sus fragmentos fueron verificados contra el video. */
 export const MANEUVER_GROUPS: ManeuverGroup[] = [
+  ...GRUPOS_ERA1,
   { id: 'boca-cuello', system: 'digestivo', title: 'Boca, orofaringe y ganglios del cuello', description: 'Inspección de la cavidad oral y búsqueda de adenopatías supraclaviculares (Virchow).', status: 'ready' },
   { id: 'estomago', system: 'digestivo', title: 'Estómago: bazuqueo gástrico', description: 'Chapoteo gástrico por líquido retenido (síndrome pilórico).', status: 'ready' },
   { id: 'abd-inspeccion', system: 'digestivo', title: 'Inspección y topografía del abdomen', description: 'Regiones, forma, cicatrices, circulación colateral, ondas peristálticas.', status: 'ready' },
@@ -44,6 +49,7 @@ export const MANEUVER_GROUPS: ManeuverGroup[] = [
 
 /** Maniobras verificadas (fragmentos comprobados contra el video). Se completa capítulo a capítulo. */
 export const MANEUVERS: Maneuver[] = [
+  ...MANIOBRAS_ERA1,
   {
     id: 'boca-orofaringe',
     system: 'digestivo',

@@ -134,6 +134,7 @@ export const apunte: ApunteUnidad = {
           ],
         },
         { t: 'ojo', text: 'Síncope **con el esfuerzo** o **sin pródromos** obliga a pensar en causa **cardíaca** (estenosis aórtica, arritmias): es el de peor pronóstico.' },
+        { t: 'maniobras', ids: ['hipotension-ortostatica'] },
       ],
       oral: '«El síncope es la pérdida súbita y transitoria de la conciencia con pérdida del tono postural y recuperación espontánea, rápida y completa, por hipoperfusión cerebral global transitoria. La lipotimia es un déficit fugaz con pródromos, que puede no llegar a la pérdida completa del conocimiento. Las causas son reflejas —el vasovagal, el más frecuente, desencadenado por emociones o dolor, con pródromos; el situacional y el del seno carotídeo—, ortostáticas, al ponerse de pie, y cardíacas: obstructivas, como la estenosis aórtica, típicamente con el esfuerzo, y arrítmicas, sin pródromos, que son las de peor pronóstico. Se diferencia de la convulsión porque en ésta hay movimientos tónico-clónicos, mordedura de lengua y confusión posictal.»',
       repreguntas: [

@@ -8,6 +8,28 @@ import type { ApunteUnidad } from './tipos';
  */
 export const apunte: ApunteUnidad = {
   unidad: 'dig-alto',
+  intro: {
+    titulo: 'Motivos de consulta digestivos',
+    bloques: [
+      {
+        t: 'cuadro',
+        titulo: 'Motivos de consulta (clase de Ortega y Merlín)',
+        head: ['Motivo', '¿Bolillero?', 'Dónde / lo mínimo'],
+        marca: 1,
+        filas: [
+          ['**Disfagia**', '**Sí**', 'En esta unidad.'],
+          ['Dispepsia y pirosis', 'No (entra en «síntomas digestivos altos»)', '**Dispepsia**: dolor o malestar del abdomen **superior** (del ombligo hacia arriba). **Pirosis**: **ardor retroesternal**.'],
+          ['**Náuseas y vómitos**', '**Sí**', 'En esta unidad.'],
+          ['**Síntomas y signos digestivos altos**', '**Sí**', 'En esta unidad.'],
+          ['**Dolor abdominal agudo**', '**Sí**', 'Unidad **Abdomen agudo y peritonitis**.'],
+          ['Diarrea', 'No', '**Aguda** < 2 semanas (casi siempre intoxicación alimentaria), **persistente** 2–4 semanas, **crónica** > 4 semanas.'],
+          ['**Constipación**', '**Sí**', 'Unidad **Constipación**.'],
+          ['Anorrectales', 'No', 'Merlín: dolor, hemorragia, secreción, **prurito**, **pujo**, **tenesmo**, incontinencia.'],
+          ['**Ictericia**', '**Sí**', 'Unidad **Ictericia, cirrosis, HTP y ascitis**. Ortega: «no me saben ictericia… lo van a bochar».'],
+        ],
+      },
+    ],
+  },
   temas: [
     {
       tema: 'disfagia',

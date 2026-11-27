@@ -54,6 +54,7 @@ export const apunte: ApunteUnidad = {
           ],
         },
         { t: 'paso', titulo: 'Crisis hipertensiva', items: ['**Urgencia**: PAS > 180 o PAD > 120 **sin daño agudo** de órgano blanco → descenso en 24–48 h.', '**Emergencia**: con **daño agudo** de órgano blanco (ACV, edema agudo de pulmón, disección) → descenso **inmediato**.'] },
+        { t: 'maniobras', ids: ['tension-arterial', 'maniobra-osler'] },
       ],
       oral: '«La hipertensión arterial es el aumento sostenido de la presión arterial, sistólica igual o mayor a 140 y/o diastólica igual o mayor a 90 milímetros de mercurio, confirmado en mediciones repetidas. Se clasifica por cifras en grados 1, 2 y 3, y por su etiología en primaria o esencial, que es el 95 %, multifactorial, y secundaria, el 5 %, de causa renal, endocrina —como Cushing, hiperaldosteronismo o feocromocitoma—, coartación de aorta o fármacos. Habitualmente es asintomática; el síntoma más frecuente es la cefalea. Su importancia está en el daño de órganos blancos: hipertrofia ventricular izquierda e insuficiencia cardíaca, cardiopatía isquémica, ACV, nefropatía y retinopatía. La crisis hipertensiva es urgencia si no hay daño agudo de órgano blanco y emergencia si lo hay.»',
       repreguntas: [

@@ -9,8 +9,27 @@ import type { ApunteUnidad } from './tipos';
 export const apunte: ApunteUnidad = {
   unidad: 'neuro-examen',
   intro: {
-    titulo: 'El mapa del examen neurológico',
+    titulo: 'Motivos de consulta y mapa del examen neurológico',
     bloques: [
+      {
+        t: 'cuadro',
+        titulo: 'Motivos de consulta neurológicos (clase de Ortega)',
+        head: ['Motivo', '¿Bolillero?', 'Lo mínimo'],
+        marca: 1,
+        filas: [
+          ['Deterioro cognitivo', 'No', 'Demencia: pérdida de memoria y de otras funciones cognitivas. Ortega: casi no se pregunta.'],
+          ['Pérdida del conocimiento', 'No', 'Repasar estado de conciencia y **Glasgow** (que sí está).'],
+          ['**Cefaleas**', '**Sí**', 'Desarrollado en la unidad **Síndrome meníngeo, HTE, LCR y cefaleas**.'],
+          ['Mareo, vértigo y trastornos del equilibrio', 'No', '**Mareo**: cabeza flotante, sin ilusión de movimiento. **Vértigo**: ilusión de **rotación**, con síntomas acompañantes.'],
+          ['Movimientos involuntarios', 'No', 'El más frecuente es el **temblor** (no siempre es Parkinson); después la **corea**, que desaparece con el sueño.'],
+          ['Debilidad muscular', 'No', '**Paresia** (debilidad) y **plejía** (parálisis): ver fuerza muscular.'],
+          ['Convulsiones', 'No', 'No es lo mismo convulsión que epilepsia; fases de la crisis y fase **postictal**.'],
+          ['Trastornos de la visión', 'No', 'Ortega no los desarrolla: ver par II.'],
+          ['Dolor, hormigueo y adormecimiento', 'No', 'Ortega no los desarrolla: ver sensibilidad.'],
+          ['Trastornos del sueño', 'No', 'Casi siempre lesión del **hipotálamo**. Lo pregunta poco.'],
+        ],
+      },
+      { t: 'ojo', text: 'Del bolillero, el único motivo de consulta neurológico es **Cefaleas**. Los demás pueden aparecer como repregunta: alcanza con la definición.' },
       {
         t: 'paso',
         titulo: 'Orden (Ortega)',

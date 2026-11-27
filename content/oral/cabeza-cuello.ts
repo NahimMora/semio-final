@@ -43,6 +43,7 @@ export const apunte: ApunteUnidad = {
           ],
         },
         { t: 'maniobras', ids: ['boca-orofaringe', 'reflejos-pupilares', 'fondo-de-ojo'] },
+        { t: 'maniobras', ids: ['cabeza-ojos-nariz', 'oido-otoscopia'] },
       ],
       oral: '«El examen de la cabeza se hace con inspección, palpación, percusión y auscultación, región por región. En el cráneo miro forma, tamaño y deformidades y palpo las suturas. En la cara evalúo la simetría y la facies, palpo la arteria temporal, la articulación temporomandibular, la parótida y los puntos dolorosos de los senos, comparando ambos lados. En los ojos miro párpados, conjuntivas —palidez en la anemia, ictericia en la esclerótica—, córnea y pupilas, que normalmente miden 2 a 4 milímetros y son iguales; exploro la tensión endoocular y los reflejos pupilares. En el oído, el pabellón, el punto preauricular y la mastoides. En la nariz, la forma, las fosas y el aleteo nasal. Y en la boca, labios, lengua, dientes, mucosas, amígdalas y orofaringe, y palpo los conductos de Stenon y Wharton.»',
       repreguntas: [
@@ -176,6 +177,7 @@ export const apunte: ApunteUnidad = {
           ],
         },
         { t: 'ojo', text: 'Lo que **asciende al tragar** es tiroides (o un nódulo del **conducto tirogloso**, en la línea media, a veces en la región submandibular). Un ganglio no se mueve con la deglución.' },
+        { t: 'maniobras', ids: ['cuello-carotidas', 'tiroides-palpacion'] },
       ],
       oral: '«En el cuello evalúo por inspección forma, simetría, latidos arteriales, el pulso venoso y la posición de la tráquea; palpo ganglios, glándulas salivales, tiroides, tráquea y las carótidas de a una, y ausculto las carótidas. La tiroides se inspecciona con el cuello en leve hiperextensión pidiéndole que trague, porque asciende con la deglución. Para palparla me ubico por detrás, maniobra de De Quervain, con los pulgares en la nuca y los dedos sobre los lóbulos, y le hago tragar; o por delante, con las maniobras de Lahey o Crile, desplazando la tráquea para palpar cada lóbulo. Describo forma, tamaño, consistencia, superficie, movilidad y dolor, y ausculto buscando soplos, que indican hiperfunción como en el Graves-Basedow.»',
       repreguntas: [

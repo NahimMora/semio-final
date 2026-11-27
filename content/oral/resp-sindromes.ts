@@ -123,6 +123,7 @@ export const apunte: ApunteUnidad = {
             '**Auscultación**: **soplo tubario**, **crepitantes**, **broncofonía** y pectoriloquia.',
           ],
         },
+        { t: 'maniobras', ids: ['vibraciones-vocales', 'torax-auscultacion'] },
       ],
       oral: '«El síndrome de condensación es el reemplazo del aire alveolar por otro elemento con el bronquio permeable; su causa típica es la neumonía, la inflamación del parénquima más allá de los bronquiolos terminales. La neumonía típica, por neumococo, tiene comienzo brusco con fiebre alta y escalofríos, tos con esputo herrumbroso y puntada de costado; la atípica, por Mycoplasma o virus, es insidiosa, con tos seca y examen casi normal. En el examen del síndrome de condensación encuentro expansión disminuida del lado enfermo, vibraciones vocales aumentadas, matidez y, a la auscultación, soplo tubario, crepitantes y broncofonía, porque el pulmón sólido con el bronquio abierto conduce mejor el sonido. La radiografía muestra una opacidad con broncograma aéreo.»',
       repreguntas: [
@@ -177,6 +178,7 @@ export const apunte: ApunteUnidad = {
           ],
         },
         { t: 'ojo', text: 'Por radiografía: opacidad homogénea con línea de **concavidad superior** (Damoiseau) y **mediastino desplazado al lado opuesto** si es grande.' },
+        { t: 'maniobras', ids: ['torax-percusion'] },
       ],
       oral: '«El derrame pleural es la acumulación anormal de líquido en el espacio pleural, por aumento de la presión hidrostática, descenso de la oncótica, inflamación de la pleura o falla del drenaje linfático. Da disnea, tos seca y dolor pleurítico que desaparece cuando se instala el líquido. Al examen el paciente se acuesta primero sobre el lado sano y después sobre el enfermo; hay expansión disminuida, vibraciones vocales abolidas en la zona del derrame y aumentadas en su borde, matidez de límite superior cóncavo con signo del desnivel, murmullo vesicular abolido y, en el borde superior, soplo pleurítico y egofonía. Se confirma con radiografía y se estudia el líquido por toracocentesis.»',
       repreguntas: [

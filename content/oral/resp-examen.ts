@@ -137,6 +137,7 @@ export const apunte: ApunteUnidad = {
           ],
         },
         { t: 'ojo', text: 'Normalmente hay **matidez hepática** desde el 5.º–6.º espacio derecho y **timpanismo** en el espacio semilunar de **Traube** (izquierda). Si **desaparece la matidez hepática** hay aire libre en el peritoneo (**signo de Jobert**: perforación).' },
+        { t: 'maniobras', ids: ['torax-topografia', 'contar-costillas', 'torax-inspeccion-estatica', 'torax-inspeccion-dinamica', 'torax-palpacion-expansion', 'vibraciones-vocales', 'torax-percusion', 'torax-auscultacion'] },
       ],
       oral: '«El examen del tórax se hace con inspección, palpación, percusión y auscultación, comparando siempre ambos lados, con el paciente sentado. Primero ubico los reparos: el ángulo de Louis marca el segundo cartílago costal y desde ahí cuento los espacios. En la inspección estática veo la forma —normal cilíndrico, con el diámetro transverso mayor que el anteroposterior— y deformaciones como el tórax en tonel; en la dinámica, tipo, frecuencia, amplitud y ritmo respiratorios y signos de dificultad como el tiraje. En la palpación evalúo elasticidad, expansión de vértices con la maniobra de Ruault y de bases, y vibraciones vocales haciéndole decir 33. En la percusión dígito-digital, la sonoridad pulmonar, los campos de Kronig y la excursión de las bases. Y en la auscultación, el murmullo vesicular, los soplos, los ruidos agregados y la voz.»',
       repreguntas: [
@@ -201,6 +202,7 @@ export const apunte: ApunteUnidad = {
             ['**Disminución**', 'Voz apagada', 'Derrame, neumotórax, atelectasia, enfisema'],
           ],
         },
+        { t: 'maniobras', ids: ['torax-auscultacion'] },
       ],
       oral: '«Los ruidos normales son el soplo laringotraqueal, áspero y agudo, en la tráquea; el broncovesicular sobre los grandes bronquios; y el murmullo vesicular, suave, grave y predominantemente inspiratorio, en todo el pulmón. Los agregados se dividen en secos, continuos y musicales, por estrechez bronquial: sibilancias, agudas y espiratorias, típicas del asma, y roncus, graves, que cambian con la tos; y húmedos o discontinuos: estertores crepitantes, alveolares, al final de la inspiración, que no cambian con la tos, como en la neumonía o la insuficiencia cardíaca, y subcrepitantes, bronquiales, que sí cambian con la tos. Además el frote pleural, superficial, en ambas fases, que desaparece en apnea. También pueden aparecer soplos patológicos: tubario en la neumonía, pleurítico por encima del derrame y anfórico en el neumotórax.»',
       repreguntas: [
