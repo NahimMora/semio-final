@@ -1,1 +1,30 @@
-{}
+{
+  "src": "media/com-01/clase.mp4",
+  "poster": "media/com-01/clase.jpg",
+  "vtt": "media/com-01/clase.vtt",
+  "duration": "2:05",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Mecanismo y clínica"
+    },
+    {
+      "t": 77,
+      "label": "Índices"
+    }
+  ],
+  "script": [
+    {
+      "title": "Menos hemoglobina, menos oxígeno",
+      "text": "La anemia es la disminución de la hemoglobina: menos de trece en el hombre y menos de doce en la mujer. Con menos hemoglobina llega menos oxígeno a los tejidos. El cuerpo compensa de dos formas: los tejidos extraen más oxígeno de cada glóbulo rojo, y el corazón late más rápido y eyecta más volumen. De ahí la clínica: palidez, cansancio, falta de aire con el esfuerzo, taquicardia y palpitaciones, y a veces un soplo funcional por el hiperflujo. Si la anemia se instala lento se tolera bastante; si es brusca, como en una hemorragia, los síntomas aparecen enseguida."
+    },
+    {
+      "title": "Tres maneras de quedarse sin glóbulos rojos",
+      "text": "Hay tres maneras de quedarse sin glóbulos rojos. Que no se fabriquen, porque falta hierro, vitamina B12, ácido fólico o eritropoyetina, o porque la médula falla: ahí los reticulocitos están bajos. Que se destruyan antes de tiempo, que es la hemólisis: la médula responde y los reticulocitos suben, y aparece ictericia. O que se pierdan, que es la causa más frecuente: sangrados digestivos o ginecológicos, que cuando son crónicos terminan en una ferropenia."
+    },
+    {
+      "title": "El tamaño del glóbulo rojo cuenta la causa",
+      "text": "El volumen corpuscular medio, el tamaño del glóbulo rojo, orienta la causa. Si falta hierro, la célula no tiene hemoglobina suficiente y queda chica: anemia microcítica, menos de ochenta femtolitros, como la ferropénica o la talasemia. Si el tamaño es normal, entre ochenta y cien, pensá en trastornos crónicos, insuficiencia renal, hemorragia aguda o hemólisis. Y si falta B12 o folato, el núcleo no madura y la célula queda grande: macrocítica, más de cien. La ferropénica se confirma con la ferritina baja, que es el mejor parámetro, la transferrina alta y un RDW alto."
+    }
+  ]
+}

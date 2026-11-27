@@ -1,1 +1,89 @@
-{"fps":24,"total":100,"portada":96,"cierre":120,"voz":"es-AR-TomasNeural","diapos":[]}
+{
+ "fps": 24,
+ "total": 3775,
+ "portada": 96,
+ "cierre": 120,
+ "voz": "es-AR-TomasNeural",
+ "diapos": [
+  {
+   "mazo": "fisio",
+   "id": "c4-hta",
+   "inicio": 96,
+   "frames": 1139,
+   "beats": [
+    {
+     "inicio": 96,
+     "frames": 148
+    },
+    {
+     "inicio": 244,
+     "frames": 461
+    },
+    {
+     "inicio": 705,
+     "frames": 229
+    },
+    {
+     "inicio": 934,
+     "frames": 301
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c4-compensa",
+   "inicio": 1235,
+   "frames": 776,
+   "beats": [
+    {
+     "inicio": 1235,
+     "frames": 222
+    },
+    {
+     "inicio": 1457,
+     "frames": 194
+    },
+    {
+     "inicio": 1651,
+     "frames": 154
+    },
+    {
+     "inicio": 1805,
+     "frames": 206
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c4-lados",
+   "inicio": 2011,
+   "frames": 872,
+   "beats": [
+    {
+     "inicio": 2011,
+     "frames": 457
+    },
+    {
+     "inicio": 2468,
+     "frames": 415
+    }
+   ]
+  },
+  {
+   "mazo": "fisio",
+   "id": "c4-framingham",
+   "inicio": 2883,
+   "frames": 772,
+   "beats": [
+    {
+     "inicio": 2883,
+     "frames": 480
+    },
+    {
+     "inicio": 3363,
+     "frames": 292
+    }
+   ]
+  }
+ ]
+}

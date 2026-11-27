@@ -1,1 +1,34 @@
-{}
+{
+  "src": "media/car-04/clase.mp4",
+  "poster": "media/car-04/clase.jpg",
+  "vtt": "media/car-04/clase.vtt",
+  "duration": "2:37",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "HTA"
+    },
+    {
+      "t": 51,
+      "label": "Insuficiencia cardíaca"
+    }
+  ],
+  "script": [
+    {
+      "title": "HTA: la asesina silenciosa",
+      "text": "La presión arterial es el producto del gasto cardíaco por la resistencia periférica. Hablamos de hipertensión cuando está en ciento cuarenta sobre noventa o más, en forma sostenida y confirmada en varias tomas. En el noventa y cinco por ciento de los casos es esencial, sin una causa única; en el cinco por ciento es secundaria, de causa renal, endocrina o por coartación de aorta. El problema es que durante años no da síntomas, mientras va dañando las arterias y obliga al ventrículo izquierdo a trabajar contra más presión. Por eso se la llama la asesina silenciosa: muchas veces se descubre por el daño de los órganos blancos, la hipertrofia ventricular y la insuficiencia cardíaca, el ACV, el riñón o la retina."
+    },
+    {
+      "title": "IC: compensar para después empeorar",
+      "text": "En la insuficiencia cardíaca, el corazón no logra bombear lo que el cuerpo necesita, o lo logra solo con presiones de llenado altas. El organismo lo interpreta como falta de volumen y activa el simpático: sube la frecuencia y se contraen los vasos. También activa el sistema renina-angiotensina-aldosterona, que retiene sodio y agua. Al principio esto sostiene la presión, pero a la larga le da más trabajo a un corazón que ya falla: es un círculo vicioso."
+    },
+    {
+      "title": "La sangre se acumula detrás del ventrículo que falla",
+      "text": "Para entender la clínica, pensá dónde se acumula la sangre. Si falla el ventrículo izquierdo, se acumula detrás, en el pulmón: disnea de esfuerzo, ortopnea, disnea paroxística nocturna y, en el extremo, edema agudo de pulmón; al auscultar, crepitantes y tercer ruido. Si falla el derecho, se acumula en las venas del cuerpo: yugulares ingurgitadas, reflujo hepatoyugular, hígado grande y edemas. Y la causa más frecuente de falla derecha es la izquierda, porque la congestión del pulmón termina sobrecargando al ventrículo derecho."
+    },
+    {
+      "title": "Framingham: DECIRTE",
+      "text": "El diagnóstico de insuficiencia cardíaca es clínico, con los criterios de Framingham. Los mayores se recuerdan con la palabra DECIRTE: disnea paroxística nocturna, estertores crepitantes, cardiomegalia, ingurgitación yugular, reflujo hepatoyugular, tercer ruido y edema agudo de pulmón. Alcanza con dos mayores, o uno mayor y dos menores, como los edemas, la disnea de esfuerzo, el derrame pleural, la tos nocturna o la taquicardia de más de ciento veinte."
+    }
+  ]
+}
