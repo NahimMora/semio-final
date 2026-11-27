@@ -1,1 +1,50 @@
-{}
+{
+  "src": "media/gen-01/clase.mp4",
+  "poster": "media/gen-01/clase.jpg",
+  "vtt": "media/gen-01/clase.vtt",
+  "duration": "3:52",
+  "chapters": [
+    {
+      "t": 4,
+      "label": "Qué son"
+    },
+    {
+      "t": 38,
+      "label": "Presión arterial"
+    },
+    {
+      "t": 156,
+      "label": "Pulso, FR, T°, SatO2"
+    },
+    {
+      "t": 193,
+      "label": "Examen general"
+    }
+  ],
+  "script": [
+    {
+      "title": "Los signos vitales",
+      "text": "Los signos vitales son manifestaciones objetivas y medibles de cuya integridad depende la vida. En un minuto te dicen si el paciente está estable, si mejora o si empeora. Son cuatro clásicos: la presión arterial, normal por debajo de ciento treinta y ochenta y cinco; el pulso, entre sesenta y cien; la frecuencia respiratoria, alrededor de doce a veinte; y la temperatura axilar, entre treinta y seis y treinta y siete grados. Hoy se suma la saturación de oxígeno, normal cerca del noventa y siete por ciento."
+    },
+    {
+      "title": "De qué depende la presión arterial",
+      "text": "La presión arterial resulta de dos cosas: cuánta sangre manda el corazón por minuto, el gasto cardíaco, y cuánto le cuesta a esa sangre avanzar por las arterias, la resistencia periférica. La sistólica es la presión cuando el ventrículo eyecta: depende del gasto y de qué tan elásticas son las arterias; por eso en el anciano, con arterias rígidas, sube la sistólica. La diastólica es la que queda mientras el corazón se llena, y depende sobre todo de la resistencia periférica."
+    },
+    {
+      "title": "Por qué se oyen los ruidos de Korotkoff",
+      "text": "Cuando inflás el manguito por encima de la sistólica, la arteria braquial queda cerrada y no se escucha nada. Al desinflar, llega un punto en que la presión de la sangre en la sístole supera la del manguito y la sangre se abre paso por una arteria todavía parcialmente apretada. Ese chorro es turbulento, y lo turbulento suena: el primer ruido que aparece marca la presión sistólica. Cuando el manguito ya no comprime, la sangre vuelve a fluir en forma laminar, silenciosa, y los ruidos desaparecen: ese momento es la diastólica."
+    },
+    {
+      "title": "La técnica, paso a paso",
+      "text": "La técnica tiene un orden. El paciente sentado al menos cinco minutos, con la espalda apoyada, las piernas sin cruzar y el brazo apoyado a la altura del corazón. El manguito va dos o tres centímetros por encima del pliegue del codo, centrado sobre la arteria braquial. Primero el método palpatorio: palpás el pulso radial e inflás hasta que desaparece. Eso te da una idea de la sistólica y evita que te engañe el agujero auscultatorio. Después apoyás la membrana sobre la braquial, inflás veinte o treinta milímetros por encima de ese valor y desinflás despacio, dos o tres milímetros por segundo. El primer ruido es la sistólica, la desaparición de los ruidos es la diastólica. Y la primera vez se mide en los dos brazos."
+    },
+    {
+      "title": "Pulso, respiración, temperatura y saturación",
+      "text": "El pulso se toma con el índice y el medio sobre la arteria radial, contando un minuto, y además de la frecuencia mirás el ritmo, la amplitud y si es igual de los dos lados. Nunca con el pulgar, porque sentirías tu propio pulso. La frecuencia respiratoria se cuenta sin avisarle al paciente, como si siguieras tomando el pulso, porque si sabe que lo mirás respira distinto. La temperatura axilar se toma con la axila seca; la rectal es la más confiable. Y la saturación, con el oxímetro: por debajo de noventa por ciento hay una hipoxemia importante."
+    },
+    {
+      "title": "La impresión general",
+      "text": "Antes de examinar por regiones, mirás al paciente completo: cómo está su conciencia, qué facies tiene, en qué actitud y decúbito está, cómo camina, y su estado de nutrición e hidratación. Muchas posturas son defensas: el paciente adopta la posición que le alivia. El cardíaco se sienta para respirar, es el decúbito ortopneico; el que tiene un derrame pericárdico se arrodilla inclinado hacia adelante, la plegaria mahometana; y el que tiene meningitis se acuesta de costado con las piernas flexionadas, en gatillo de fusil."
+    }
+  ]
+}
